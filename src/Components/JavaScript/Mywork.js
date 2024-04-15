@@ -23,7 +23,7 @@ function Mywork() {
             data-aos="fade-up"
             className="filter_buttons flex items-center justify-center gap-[0.5rem] bg-[#050709] m-auto rounded-[50px] mt-[3rem]"
           >
-            <NavLink to="/Hassanjavaid">
+            <NavLink to="/">
               <button className="filter_btn">All</button>
             </NavLink>
             <NavLink to="/ProjectCategory/JavaScript">
