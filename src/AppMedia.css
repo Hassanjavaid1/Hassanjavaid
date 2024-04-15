@@ -65,7 +65,6 @@ html, body {
   -moz-user-select: none; 
   -ms-user-select: none;
   user-select: none; 
-  touch-action: none; 
 }
   .container {
     background: linear-gradient(267deg, #0f0715, #1f0e32, #0f0715, #0f0715);
