@@ -27,7 +27,7 @@ function App() {
   return (
     <>
      <Suspense fallback = {<Preloader/>}>
-     <BrowserRouter scrollRestoration="manual">
+     <BrowserRouter scrollRestoration="manual" basename="/Hassanjavaid">
         <div className="container">
           <Navbar />
        <Hero_Section />
