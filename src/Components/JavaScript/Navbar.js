@@ -28,7 +28,7 @@ function Navbar() {
       <nav className={navScroll ? "nav_scroll" : ""}>
         <div className="navbar flex items-center justify-center gap-[7rem]">
           <div className="flex items-center ">
-            <RouterLink to="/Hassanjavaid">
+            <RouterLink to="/">
               <img
                 src={logo}
                 className="logo_img w-[12rem] max-w-sm h-[9rem] object-cover"
