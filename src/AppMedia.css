@@ -57,6 +57,16 @@
   }
 }
 @media (max-width: 940px) {
+  
+html, body {
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none;
+  user-select: none; 
+  touch-action: none; 
+}
   .container {
     background: linear-gradient(267deg, #0f0715, #1f0e32, #0f0715, #0f0715);
   }
@@ -161,6 +171,7 @@
   .my_detail {
     width: min-content;
   }
+  
 }
 
 @media (max-width: 760px) {
