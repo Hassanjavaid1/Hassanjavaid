@@ -16,7 +16,7 @@ function Mywork() {
             My Recent Works
           </h1>
           <p className="title_desc">
-            We put your ideas and thus your wishes in the form of a unique web
+            I put your ideas and thus your wishes in the form of a unique web
             project that <br /> inspires you and your customers.
           </p>
           <div
