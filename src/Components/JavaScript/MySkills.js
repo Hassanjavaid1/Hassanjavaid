@@ -10,7 +10,7 @@ function MySkills() {
         </h1>
         <Element name="MYSkills" className="Skills">
           <p className="title_desc">
-            We put your ideas and thus your wishes in the form of a unique web
+            I put your ideas and thus your wishes in the form of a unique web
             project that <br /> inspires you and your customers.
           </p>
           <section className="myskills flex flex-wrap justify-center gap-[2rem] m-auto mt-[5rem] gap-y-[4rem] w-[80%] ">

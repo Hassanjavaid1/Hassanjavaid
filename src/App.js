@@ -15,7 +15,6 @@ const Resume = React.lazy(()=>import('./Components/JavaScript/Resume'))
 const MySkills = React.lazy(()=>import('./Components/JavaScript/MySkills'))
 const Contact = React.lazy(()=>import('./Components/JavaScript/Contact'))
 const Footer = React.lazy(()=>import('./Components/JavaScript/Footer'))
-
 function App() {
   useEffect(() => {
     Aos.init({
