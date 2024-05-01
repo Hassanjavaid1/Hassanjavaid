@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Hassanjavaid/static/css/main.0216af82.css",
-    "main.js": "/Hassanjavaid/static/js/main.9bc3fbb0.js",
+    "main.js": "/Hassanjavaid/static/js/main.d16810c5.js",
     "static/js/863.5c4c9c53.chunk.js": "/Hassanjavaid/static/js/863.5c4c9c53.chunk.js",
-    "static/js/202.a2516104.chunk.js": "/Hassanjavaid/static/js/202.a2516104.chunk.js",
+    "static/js/202.3f6a1c08.chunk.js": "/Hassanjavaid/static/js/202.3f6a1c08.chunk.js",
     "static/js/461.ffcd511f.chunk.js": "/Hassanjavaid/static/js/461.ffcd511f.chunk.js",
     "static/js/222.2f67b8b9.chunk.js": "/Hassanjavaid/static/js/222.2f67b8b9.chunk.js",
     "static/js/288.c987c660.chunk.js": "/Hassanjavaid/static/js/288.c987c660.chunk.js",
     "static/js/218.239929bf.chunk.js": "/Hassanjavaid/static/js/218.239929bf.chunk.js",
-    "static/js/477.2935a6f5.chunk.js": "/Hassanjavaid/static/js/477.2935a6f5.chunk.js",
+    "static/js/477.df6c4e45.chunk.js": "/Hassanjavaid/static/js/477.df6c4e45.chunk.js",
     "static/css/497.a62761cc.chunk.css": "/Hassanjavaid/static/css/497.a62761cc.chunk.css",
     "static/js/497.5ea489b3.chunk.js": "/Hassanjavaid/static/js/497.5ea489b3.chunk.js",
     "static/js/258.1be96b3f.chunk.js": "/Hassanjavaid/static/js/258.1be96b3f.chunk.js",
@@ -22,7 +22,7 @@
     "static/js/231.5eeaee47.chunk.js": "/Hassanjavaid/static/js/231.5eeaee47.chunk.js",
     "static/media/iflix.jpg": "/Hassanjavaid/static/media/iflix.9848e4f366c859a1e760.jpg",
     "static/media/quiz app.jpg": "/Hassanjavaid/static/media/quiz app.2427958d16eb916dff75.jpg",
-    "static/media/Hassan.pdf": "/Hassanjavaid/static/media/Hassan.c622476d258a31d3a890.pdf",
+    "static/media/Hassan.pdf": "/Hassanjavaid/static/media/Hassan.99bdad5ce46a871937ff.pdf",
     "static/media/ecommerce.jpg": "/Hassanjavaid/static/media/ecommerce.3a7c7dfbdd5792854a4f.jpg",
     "static/media/my_pic.png": "/Hassanjavaid/static/media/my_pic.b067aeb263475fec9ec4.png",
     "static/media/crypto.png": "/Hassanjavaid/static/media/crypto.52b9491bb075001e2443.png",
@@ -49,14 +49,14 @@
     "static/media/html.svg": "/Hassanjavaid/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/npm.svg": "/Hassanjavaid/static/media/npm.d8917a420fc3657bf21283394459f6ec.svg",
     "main.0216af82.css.map": "/Hassanjavaid/static/css/main.0216af82.css.map",
-    "main.9bc3fbb0.js.map": "/Hassanjavaid/static/js/main.9bc3fbb0.js.map",
+    "main.d16810c5.js.map": "/Hassanjavaid/static/js/main.d16810c5.js.map",
     "863.5c4c9c53.chunk.js.map": "/Hassanjavaid/static/js/863.5c4c9c53.chunk.js.map",
-    "202.a2516104.chunk.js.map": "/Hassanjavaid/static/js/202.a2516104.chunk.js.map",
+    "202.3f6a1c08.chunk.js.map": "/Hassanjavaid/static/js/202.3f6a1c08.chunk.js.map",
     "461.ffcd511f.chunk.js.map": "/Hassanjavaid/static/js/461.ffcd511f.chunk.js.map",
     "222.2f67b8b9.chunk.js.map": "/Hassanjavaid/static/js/222.2f67b8b9.chunk.js.map",
     "288.c987c660.chunk.js.map": "/Hassanjavaid/static/js/288.c987c660.chunk.js.map",
     "218.239929bf.chunk.js.map": "/Hassanjavaid/static/js/218.239929bf.chunk.js.map",
-    "477.2935a6f5.chunk.js.map": "/Hassanjavaid/static/js/477.2935a6f5.chunk.js.map",
+    "477.df6c4e45.chunk.js.map": "/Hassanjavaid/static/js/477.df6c4e45.chunk.js.map",
     "497.a62761cc.chunk.css.map": "/Hassanjavaid/static/css/497.a62761cc.chunk.css.map",
     "497.5ea489b3.chunk.js.map": "/Hassanjavaid/static/js/497.5ea489b3.chunk.js.map",
     "258.1be96b3f.chunk.js.map": "/Hassanjavaid/static/js/258.1be96b3f.chunk.js.map",
@@ -71,6 +71,6 @@
   },
   "entrypoints": [
     "static/css/main.0216af82.css",
-    "static/js/main.9bc3fbb0.js"
+    "static/js/main.d16810c5.js"
   ]
 }
