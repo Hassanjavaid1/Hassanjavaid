@@ -184,7 +184,7 @@ const resumeExperience = [
   },
   {
     workYear: "2024 Jan - Feb 2024",
-    role: "Frontend Web Developer",
+    role: "Frontend Developer Intern",
     location: "India Remote",
   },
   {
@@ -196,7 +196,7 @@ const resumeExperience = [
 const Education = [
   {
     eduYear: "2023 - Present",
-    degree: "Bachelor of Computer Science",
+    degree: "Intermediate of Computer Science!",
     location: "Ziauddin College",
   },
   {

@@ -96,7 +96,7 @@ function Hero_Section() {
           {countOn && (
             <div className="hero_counter flex items-center justify-center mt-5rem pb-[2rem] gap-[11rem] mt-[2rem]">
               <h4 className="about_hero text-[3rem] text-[#DDDDDD] font-bold text-[4.6rem] flex items-center justify-center font-sans-serif gap-[0.3rem]">
-                <CountUp end={2} />{" "}
+                <CountUp end={1} />+
                 <span className="counter_text text-[1rem] font-sans-serif opacity-[0.9] font-[600] ">
                   Years of <br /> Experience
                 </span>
@@ -108,7 +108,7 @@ function Hero_Section() {
                 </span>
               </h4>
               <h4 className="about_hero text-[3rem] text-[#DDDDDD] font-bold text-[4.6rem] flex items-center justify-center font-sans-serif gap-[0.3rem]">
-                <CountUp end={2} />{" "}
+                <CountUp end={1} />{" "}
                 <span className="counter_text text-[1rem] font-sans-serif opacity-[0.9] font-[600] ">
                   Internships <br />
                   Completed

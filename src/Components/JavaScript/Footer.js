@@ -82,7 +82,7 @@ function Footer() {
         </div>
         <h3 className="footer_copyright text-[#7957d1eb] font-[sans-serif] text-[1.1rem]">
           &copy; 2024 All rights reserved by{" "}
-          <span className="font-bold">Hassanjavaid</span>
+          <span className="font-bold">Hassanjavaid!</span>
         </h3>
       </div>
     </>
