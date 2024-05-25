@@ -84,7 +84,7 @@ const projects = [
     pro_title: "News Website",
     pro_img: news_website_img,
     about: "News website which show real time news across the world.",
-    demo: "https://hassanjavaid1.github.io/React-News-App/",
+    demo: "https://hassanjavaid1.github.io/News_App/",
     tech: "ReactJS",
   },
   {
