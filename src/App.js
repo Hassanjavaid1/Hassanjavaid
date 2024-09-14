@@ -10,7 +10,6 @@ const Navbar = React.lazy(() => import('./Components/JavaScript/Navbar'));
 const Hero_Section = React.lazy(()=>import("./Components/JavaScript/Hero_Section"))
 const Services = React.lazy(()=>import('./Components/JavaScript/Services'))
 const Mywork = React.lazy(()=>import('./Components/JavaScript/Mywork'));
-const ProjectCategory = React.lazy(()=>import('./Components/JavaScript/ProjectCategory'))
 const Resume = React.lazy(()=>import('./Components/JavaScript/Resume'))
 const MySkills = React.lazy(()=>import('./Components/JavaScript/MySkills'))
 const Contact = React.lazy(()=>import('./Components/JavaScript/Contact'))
@@ -27,7 +26,7 @@ function App() {
   return (
     <>
      <Suspense fallback = {<Preloader/>}>
-     <BrowserRouter scrollRestoration="manual" basename="/Hassanjavaid">
+     <BrowserRouter basename="/Hassanjavaid">
         <div className="container">
           <Navbar />
        <Hero_Section />
@@ -35,10 +34,7 @@ function App() {
           <Services />
         </div>
         <div className="mywork">
-        <Routes scrollRestoration="manual">
-          <Route path="/" element={<Mywork/>}/>
-                <Route path="/ProjectCategory/:id" element={<ProjectCategory />} />
-              </Routes>
+      <Mywork/>
         </div>
         <div className="resume">
           <Resume/>
