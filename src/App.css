@@ -226,16 +226,19 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 .mywork {
   background-color: #100717;
 }
-.active {
-  background: linear-gradient(45deg, #7142d1, #391d6e);
-  border-radius: 50px;
-  padding: 1rem 1.7rem;
-  font-family: sans-serif;
-  font-weight: bold;
-  overflow: hidden;
+
+.react-tabs__tab--selected {
+  background: linear-gradient(45deg, #7142d1, #391d6e)!important;
+  border-radius: 50px!important;
+  padding: 1rem 1.7rem!important;
+  font-family: sans-serif!important;
+  font-weight: bold!important;
+  overflow: hidden!important;
+  color: white!important;
+  border: 0px!important;
 }
 .filter_btn {
-  transition: background-color 0.3s ease; /* Define transition for background color */
+  transition: background-color 0.3s ease;
 }
 .filter_btn:focus {
   outline: none;
@@ -244,7 +247,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 .filter_buttons {
   width: fit-content;
   gap: 2rem;
-  padding: 0.1rem 1.3rem;
+  padding: 0.1rem .2rem;
   height: 3.5rem;
   transition: 4s;
 }
@@ -260,6 +263,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
   transform: rotate(321deg);
 }
 .mywork_shadow {
+  display: grid!important;
   filter: drop-shadow(0rem 0rem 2rem #261541);
 }
 /*My resume.*/

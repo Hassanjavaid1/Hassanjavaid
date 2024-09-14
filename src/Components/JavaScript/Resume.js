@@ -29,7 +29,7 @@ function Resume() {
       <div className=' mt-7' key={degree} data-aos="fade-right">
       <div className='resume_hover flex flex-col leading-[1.6] bg-[#0f0518] w-[25rem] p-[1.3rem] rounded-[17px]'>
         <h4 className="exp_date text-[#8127cf] text-[1.4rem] font-bold font-[sans-serif] capitalize">{eduYear}</h4>
-        <h3 className='exp_position uppercase text-[1.5rem] font-bold font-[sans-serif] whitespace-nowrap text-ellipsis overflow-hidden'>{degree}</h3>
+        <h3 className='exp_position overflow-hidden whitespace-nowrap uppercase text-[1.5rem] font-bold font-[sans-serif] whitespace-nowrap text-ellipsis overflow-hidden'>{degree}</h3>
         <h5 className="exp_location font-[sans-serif] opacity-[0.8]">{location}</h5>
       </div>
       </div>

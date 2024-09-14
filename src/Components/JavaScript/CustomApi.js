@@ -9,8 +9,6 @@ import css_svg from "../Photos/Projects_imgs/css.svg";
 import tailwind_svg from "../Photos/Projects_imgs/tailwindcss.svg";
 import javascript_svg from "../Photos/Projects_imgs/js.svg";
 import reactjs_svg from "../Photos/Projects_imgs/reactjs.svg";
-import php_svg from "../Photos/Projects_imgs/php.svg";
-import mysql_svg from "../Photos/Projects_imgs/mysql.svg";
 import npm_svg from "../Photos/Projects_imgs/npm.svg";
 import git_svg from "../Photos/Projects_imgs/git.svg";
 import github_svg from "../Photos/Projects_imgs/github.svg";
@@ -179,13 +177,8 @@ const projects = [
 const resumeExperience = [
   {
     workYear: "2024-Present",
-    role: "Frontend Web Developer",
+    role: "Frontend Developer Internship",
     location: "Karachi Pakistan",
-  },
-  {
-    workYear: "2024 Jan - Feb 2024",
-    role: "Frontend Developer Intern",
-    location: "India Remote",
   },
   {
     workYear: "2023 April - Jan 2024",
@@ -198,11 +191,6 @@ const Education = [
     eduYear: "2023 - Present",
     degree: "Intermediate of Computer Science!",
     location: "Ziauddin College",
-  },
-  {
-    eduYear: "2023 - 2024",
-    degree: "Frontend Web Developer",
-    location: "AdamJee Coaching Center",
   },
   {
     eduYear: "2012 - 2022",
@@ -244,18 +232,6 @@ const mySkills = [
     name: "ReactJS",
     svg_title: "ReactJS",
   },
-  // {
-  //   tech_img:php_svg,
-  //   level:'50%',
-  //   name:'PHP',
-  //   svg_title:'PHP',
-  // },
-  // {
-  //   tech_img:mysql_svg,
-  //   level:'50%',
-  //   name:'MySQL',
-  //   svg_title:'MySQL Database.',
-  // },
   {
     tech_img: npm_svg,
     level: "90%",

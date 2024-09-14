@@ -23,6 +23,7 @@ function App() {
       easing: 'ease-in-sine',
     });
   }, []);
+  
   return (
     <>
      <Suspense fallback = {<Preloader/>}>

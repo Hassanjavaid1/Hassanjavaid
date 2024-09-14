@@ -6,7 +6,7 @@ import { FaFacebookF } from "react-icons/fa6";
 import hassan from "../Photos/my_pic.png";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
-import resume from '../Photos/Projects_imgs/Hassan.pdf'
+import resume from "../Photos/Projects_imgs/Hassan.pdf";
 
 function Hero_Section() {
   const [countOn, setcountOn] = useState(true);
@@ -35,7 +35,11 @@ function Hero_Section() {
               focussed solutions that connect people.
             </p>
             <div className="resume_social flex items-center gap-[2.3rem] space-y-[23] mt-[2rem]">
-              <a href={resume} download className="flex items-center justify-center text-[#8750F7] border border-[#8750F7] py-[0.9rem] px-[2.2rem] rounded-[50px] tracking-[1px] cursor-pointer font-[600] font-sans transition-all duration-0.3s hover:bg-[#8750F7] hover:text-white">
+              <a
+                href={resume}
+                download
+                className="flex items-center justify-center text-[#8750F7] border border-[#8750F7] py-[0.9rem] px-[2.2rem] rounded-[50px] tracking-[1px] cursor-pointer font-[600] font-sans transition-all duration-0.3s hover:bg-[#8750F7] hover:text-white"
+              >
                 Download CV &darr;
               </a>
               <div className="flex items-center gap-[1.1rem] z-40">
@@ -102,7 +106,7 @@ function Hero_Section() {
                 </span>
               </h4>
               <h4 className="about_hero text-[3rem] text-[#DDDDDD] font-bold text-[4.6rem] flex items-center justify-center font-sans-serif gap-[0.3rem]">
-                <CountUp end={9} />+
+                <CountUp end={parseFloat(9)} />+
                 <span className="counter_text text-[1rem] font-sans-serif opacity-[0.9] font-[600] ">
                   Projects <br /> Completed
                 </span>
