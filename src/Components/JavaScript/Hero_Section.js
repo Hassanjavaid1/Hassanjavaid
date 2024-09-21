@@ -61,7 +61,7 @@ function Hero_Section() {
                   {" "}
                   <FaGithub className="icon" />
                 </a>
-                <a
+                {/* <a
                   href="https://twitter.com/Hassan_javad159"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -69,8 +69,8 @@ function Hero_Section() {
                 >
                   {" "}
                   <FaXTwitter className="icon" />
-                </a>
-                <a
+                </a> */}
+                {/* <a
                   href="https://web.facebook.com/profile.php?id=61551678367934"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -78,7 +78,7 @@ function Hero_Section() {
                 >
                   {" "}
                   <FaFacebookF className="icon" />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@ function Hero_Section() {
               src={hassan}
               alt=""
               title="Hassanjavaid"
-              className="hero_pic max-h-[28rem] w-[24rem] object-cover rounded-[0.8rem] border-[2px] border-[#9c6cff5e] contrast-[1.5] hover:border-[#7f4ae7] transform hover:rotate-1"
+              className="hero_pic max-h-[28rem] w-[24rem] object-cover rounded-[0.8rem] border-[2px] border-[#9c6cff5e] contrast-[1] hover:border-[#7f4ae7] transform hover:rotate-1"
             />
           </div>
         </div>
