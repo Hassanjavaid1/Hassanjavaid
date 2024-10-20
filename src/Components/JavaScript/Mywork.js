@@ -9,7 +9,6 @@ function Mywork() {
   const [filterProject, setfilterProject] = useState(projects);
   const [reactProject,setReactProject] = useState([])
   const [JSProject,setJSProject] = useState([])
-
   useEffect(()=>{
    setReactProject(filterProject.filter(a=>a.tech=='ReactJS'))
    setJSProject(filterProject.filter(a=>a.tech=='JavaScript'))

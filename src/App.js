@@ -17,7 +17,6 @@ const Footer = React.lazy(()=>import('./Components/JavaScript/Footer'))
 function App() {
   useEffect(() => {
     Aos.init({
-      offset: 90,
       duration: 1000,
       easing: 'ease-in-sine',
     });
