@@ -1,0 +1,351 @@
+html {
+  scroll-behavior: auto;
+  overflow-x: hidden;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  color: white;
+  scroll-behavior: auto;
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  background-color: #2a1454;
+  max-width: 6px;
+}
+body::-webkit-scrollbar-thumb {
+  max-width: 5px;
+  background-color: #8750f7;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #8750f7;
+}
+.container {
+  background: linear-gradient(104deg, #0f0715, #1e0d30, #0f0715, #0f0715);
+  width: 100%;
+  max-width: 100%;
+}
+
+.btn {
+  background: linear-gradient(61deg, #9669f3, transparent);
+  transition: background-position 0.4s ease;
+}
+.btn:hover {
+  background: linear-gradient(to left, #9669f3 40%, #9769f359 90%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  background-position: left bottom;
+}
+.nav_link {
+  position: relative;
+  cursor: pointer;
+}
+.nav_link::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(to left, #9967fd59 40%, #9669f3 90%);
+  transition: width 0.3s ease;
+}
+
+.nav_link:hover::before {
+  width: 100%;
+}
+
+/* HAMBURGER */
+
+label {
+  display: flex;
+  flex-direction: column;
+  width: 3.4rem;
+  cursor: pointer;
+  height: 3.4rem;
+}
+
+label span {
+  background: #fff;
+  border-radius: 10px;
+  height: 7px;
+  margin: 7px 0;
+  transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+span:nth-of-type(1) {
+  width: 50%;
+}
+
+span:nth-of-type(2) {
+  width: 100%;
+}
+
+span:nth-of-type(3) {
+  width: 75%;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ span:nth-of-type(1) {
+  transform-origin: bottom;
+  transform: rotatez(45deg) translate(8px, 0px);
+}
+
+input[type="checkbox"]:checked ~ span:nth-of-type(2) {
+  transform-origin: top;
+  transform: rotatez(-45deg);
+}
+
+input[type="checkbox"]:checked ~ span:nth-of-type(3) {
+  transform-origin: bottom;
+  width: 50%;
+  transform: translate(30px, -11px) rotatez(45deg);
+}
+
+/* Active class */
+.nav_active {
+  position: relative;
+}
+.nav_active::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(to left, #a376fd59 40%, #9669f3 90%);
+  transition: width 0.3s ease;
+  width: 100%;
+}
+
+.heading_title {
+  background: -webkit-linear-gradient(#8e5af7, #e2d4fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.7rem;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.title_desc {
+  font-family: sans-serif;
+  margin-top: 0.4rem;
+  color: #d6d6d6;
+}
+.svg_icon {
+  border: 1px solid #8750f7;
+  border-radius: 19px;
+  font-size: 1.6rem;
+  padding: 14px 3rem;
+  transition: background-color 0.5s ease-in-out;
+}
+.icon {
+  color: #7d4ae5;
+}
+.svg_icon:hover .icon {
+  color: white;
+}
+.svg_icon:hover {
+  background-color: #8750f7;
+}
+.icon:hover {
+  color: white;
+}
+
+@keyframes animateBackground {
+  0% {
+    transform: scale(1);
+    transition: 1s;
+  }
+  50% {
+    transform: scale(1.1);
+    transition: 1s;
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    transition: 1s;
+  }
+}
+
+.animated-text {
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 20rem;
+  animation: animateBackground 3s ease-in-out infinite;
+  -webkit-text-stroke: 1px #6c2ceb;
+  color: transparent;
+  overflow: hidden;
+  position: absolute;
+  opacity: 0.3;
+}
+.about_hero::before {
+  content: "0";
+}
+
+/* My Services */
+
+/* .services {
+  background-color: #050709;
+}
+.service_icon {
+  font-size: 5.5rem;
+}
+.service_box {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  transition: background-position 0.5s ease;
+}
+
+.service_box::before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #7a2dc3fa, #7a2dc3b0);
+  transition: top 0.5s;
+  z-index: -1;
+}
+
+.service_box:hover::before {
+  top: 0;
+}
+.service_box:hover .sno {
+  color: white;
+} */
+
+/*Mywork*/
+
+.mywork {
+  background-color: #100717;
+}
+
+.react-tabs__tab--selected {
+  background: linear-gradient(45deg, #7142d1, #391d6e) !important;
+  border-radius: 50px !important;
+  padding: 1rem 1.7rem !important;
+  font-family: sans-serif !important;
+  font-weight: bold !important;
+  overflow: hidden !important;
+  color: white !important;
+  border: 0px !important;
+}
+.filter_btn {
+  transition: background-color 0.3s ease;
+  padding: 18px;
+  cursor: pointer;
+}
+.filter_btn:focus {
+  outline: none;
+}
+
+.filter_buttons {
+  width: fit-content;
+  gap: 2rem;
+  padding: 0.1rem 0.2rem;
+  height: 3.5rem;
+  transition: 4s;
+}
+.demo_box {
+  visibility: hidden;
+  display: flex;
+}
+.mywork_parent:hover .demo_box {
+  visibility: visible;
+}
+.mywork_parent:hover .mywork_child {
+  transition: visibility 1s ease, transform 0.3s ease;
+  transform: rotate(321deg);
+}
+.mywork_shadow {
+  display: grid !important;
+  filter: drop-shadow(0rem 0rem 2rem #261541);
+}
+
+/*My resume.*/
+/* 
+.resume {
+  background-color: #050709;
+}
+
+.resume_hover:hover {
+  background: linear-gradient(88deg, #6f3fcfe8, #200f4166);
+}
+
+.resume_hover:hover .exp_date {
+  color: white;
+} */
+
+/* Contact Me */
+
+.contact {
+  background-color: #050709;
+  padding-top: 5rem;
+}
+.input_field {
+  background: linear-gradient(45deg, #0000008a, transparent);
+  padding: 0.8rem;
+  border: 1px solid grey;
+  border-radius: 7px;
+  font-family: sans-serif;
+  transition: 0.6s;
+  font-size: 17px;
+}
+.input_field:focus {
+  outline: none;
+  border: 1px solid #8750f7;
+}
+.option {
+  background-color: white;
+  color: black;
+}
+.input_flex {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.contact_svg {
+  background: linear-gradient(39deg, #6238b7, transparent);
+  border-radius: 50px;
+  font-size: 1.4rem;
+  padding: 0.9rem;
+}
+/* Footer */
+
+.footer {
+  background-color: #0f0715;
+}
+
+/* Scroll  */
+
+.nav_scroll {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  box-shadow: 0rem -1.5rem 3rem #64308b;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav_scroll .logo_img {
+  height: 6rem;
+}
+nav {
+  transition: all 0.5s ease-in;
+}
+
+nav .nav_scroll {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.preload {
+  transition: 2s;
+}
