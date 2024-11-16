@@ -12,9 +12,9 @@ import reactjs_svg from "../Photos/Projects_imgs/reactjs.svg";
 import npm_svg from "../Photos/Projects_imgs/npm.svg";
 import git_svg from "../Photos/Projects_imgs/git.svg";
 import github_svg from "../Photos/Projects_imgs/github.svg";
-import nodejs from "../Photos/Projects_imgs/nodejs.webp"
-import mysql from "../Photos/Projects_imgs/msql.png"
-import bootstrap from "../Photos/Projects_imgs/bootstrap.png"
+import nodejs from "../Photos/Projects_imgs/nodejs.webp";
+import mysql from "../Photos/Projects_imgs/msql.png";
+import bootstrap from "../Photos/Projects_imgs/bootstrap.png";
 
 //Projects images.
 
@@ -22,16 +22,16 @@ import iflix_img from "../Photos/Projects_imgs/iflix.jpg";
 import news_website_img from "../Photos/Projects_imgs/news.webp";
 import e_commerce_img from "../Photos/Projects_imgs/ecommerce.jpg";
 import hangman_img from "../Photos/Projects_imgs/hangman_game.jpg";
-import calculator_img from "../Photos/Projects_imgs/calculator.jpg";
 import quiz_img from "../Photos/Projects_imgs/quiz app.jpg";
 import qr_img from "../Photos/Projects_imgs/QR code.webp";
 import randomPass_img from "../Photos/Projects_imgs/random password.jpg";
 import english_dic_img from "../Photos/Projects_imgs/english_dictionary.jpg";
-import search_github_img from "../Photos/Projects_imgs/search github.jpg";
 import todo_img from "../Photos/Projects_imgs/todo website.jpg";
 import weather_img from "../Photos/Projects_imgs/weather app.jpg";
 import bg_generator from "../Photos/Projects_imgs/background_generator.jpg";
 import crypto_img from "../Photos/Projects_imgs/crypto.png";
+import stockOrbit from "../Photos/Projects_imgs/stockOrbit.jpeg"
+
 const serviceData = [
   {
     sno: "01",
@@ -68,6 +68,14 @@ const serviceData = [
 const projects = [
   //React.js Projects.
   {
+    pro_title: "Stock Orbit",
+    pro_img: stockOrbit,
+    about:
+      "Mobie app for real-time inventory management and inventory tracking, retail and warehouse users.",
+    demo: "https://www.linkedin.com/in/hassan-javaid159",
+    tech: "JavaScript",
+  },
+  {
     pro_title: "iFlix Movies",
     pro_img: iflix_img,
     about:
@@ -102,21 +110,6 @@ const projects = [
     about:
       "A real time weather forecasting website which show every single place weather current situations.",
     demo: "https://hassanjavaid1.github.io/ReactWeatherApp/",
-    tech: "ReactJS",
-  },
-  {
-    pro_title: "Search Github.",
-    pro_img: search_github_img,
-    about:
-      "Explore All Github profiles with this website just by searching what you are looking for.",
-    demo: "https://hassanjavaid1.github.io/Search_Github_Users/",
-    tech: "ReactJS",
-  },
-  {
-    pro_title: "Simple Calculator.",
-    pro_img: calculator_img,
-    about: "A simple calculator which you can use for basic math calculations.",
-    demo: "https://hassanjavaid1.github.io/React_Calculator/",
     tech: "ReactJS",
   },
 

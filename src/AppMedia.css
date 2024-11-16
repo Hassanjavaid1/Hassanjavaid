@@ -455,13 +455,13 @@ html, body {
   .service_box {
     max-width: 95%;
   }
-  .myskills {
+  /* .myskills {
     display: grid;
     grid-template-columns: repeat(2, 0fr);
     justify-content: center;
     align-items: center;
     row-gap: 1rem;
-  }
+  } */
 
   .counter_text {
     font-size: medium;
@@ -566,9 +566,9 @@ html, body {
   .myskills {
     grid-template-columns: repeat(1, 0fr);
   }
-  .group {
+ /* .group {
     width: 11rem;
-  }
+  }*/
   .exp_position {
     font-size: large;
   }
