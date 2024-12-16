@@ -94,14 +94,14 @@ function Contact() {
                 <option value="career" className="option">
                   Choose Services
                 </option>
-                <option value="Need Frontend Developer" className="option">
-                  Need Frontend Developer
+                <option value="Looking For Frontend Developer" className="option">
+                  Looking For Frontend Developer
                 </option>
-                <option value="Need JavaScript Developer" className="option">
-                  Need JavaScript Developer
+                <option value="Looking JavaScript Developer" className="option">
+                  Looking JavaScript Developer
                 </option>
-                <option value="Need ReactJS Developer" className="option">
-                  Need ReactJS Developer
+                <option value="Looking For ReactJS Developer" className="option">
+                  Looking For ReactJS Developer
                 </option>
                 <option value="Other" className="option">
                   Other
@@ -111,7 +111,7 @@ function Contact() {
                 cols="8"
                 rows="6"
                 placeholder="Message"
-                className="input_field"
+                className="input_field h-[185px]"
                 name="message"
               ></textarea>
               <button className="btn w-fit font-[sans-serif] py-4 px-6 rounded-[50px] font-[600]">

@@ -34,15 +34,9 @@ function App() {
           <div className="container">
             <Navbar />
             <Hero_Section />
-            {/* <div className="services">
-          <Services />
-        </div> */}
             <div className="mywork">
               <Mywork />
             </div>
-            {/* <div className="resume">
-          <Resume/>
-        </div> */}
             <div className="mywork myskills">
               <MySkills />
             </div>
@@ -52,6 +46,7 @@ function App() {
             <div className="footer">
               <Footer />
             </div>
+
           </div>
         </BrowserRouter>
       </Suspense>

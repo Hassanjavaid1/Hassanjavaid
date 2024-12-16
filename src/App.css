@@ -32,9 +32,8 @@ body::-webkit-scrollbar-thumb:hover {
   transition: background-position 0.4s ease;
 }
 .btn:hover {
-  background: linear-gradient(to left, #9669f3 40%, #9769f359 90%);
+  background: linear-gradient(to left, #9669f3 40%, #9769f359 100%);
   background-size: 200% 100%;
-  background-position: left bottom;
   background-position: left bottom;
 }
 .nav_link {
@@ -315,6 +314,9 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
   border-radius: 50px;
   font-size: 1.4rem;
   padding: 0.9rem;
+}
+.contact_svg:hover{
+  background: linear-gradient(39deg, #7143ce, transparent);
 }
 /* Footer */
 

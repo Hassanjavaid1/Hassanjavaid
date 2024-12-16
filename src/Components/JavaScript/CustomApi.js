@@ -97,76 +97,76 @@ const projects = [
     demo: "https://hassanjavaid1.github.io/News_App/",
     tech: "ReactJS",
   },
-  {
-    pro_title: "Cryptocurrency Website",
-    pro_img: crypto_img,
-    about: "A Cryptocurrency website which show real time crypto conditions.",
-    demo: "https://hassanjavaid1.github.io/Cryptocurrency-App/",
-    tech: "ReactJS",
-  },
-  {
-    pro_title: "Weather forecasting.",
-    pro_img: weather_img,
-    about:
-      "A real time weather forecasting website which show every single place weather current situations.",
-    demo: "https://hassanjavaid1.github.io/ReactWeatherApp/",
-    tech: "ReactJS",
-  },
+  // {
+  //   pro_title: "Cryptocurrency Website",
+  //   pro_img: crypto_img,
+  //   about: "A Cryptocurrency website which show real time crypto conditions.",
+  //   demo: "https://hassanjavaid1.github.io/Cryptocurrency-App/",
+  //   tech: "ReactJS",
+  // },
+  // {
+  //   pro_title: "Weather forecasting.",
+  //   pro_img: weather_img,
+  //   about:
+  //     "A real time weather forecasting website which show every single place weather current situations.",
+  //   demo: "https://hassanjavaid1.github.io/ReactWeatherApp/",
+  //   tech: "ReactJS",
+  // },
 
-  // Javascript projects.
-  {
-    pro_title: "Hangman Game!",
-    pro_img: hangman_img,
-    about:
-      "A hangman game which you can play in your free time either on computer or phone.",
-    demo: "https://hassanjavaid1.github.io/Hangman-game/",
-    tech: "JavaScript",
-  },
-  {
-    pro_title: "QR Code Generator!",
-    pro_img: qr_img,
-    about:
-      "Real time QR Code Generator which you can use anywhere even on your mobile to scan the code.",
-    demo: "https://hassanjavaid1.github.io/QR-Code-Generator/",
-    tech: "JavaScript",
-  },
-  {
-    pro_title: "To-Do Web App.",
-    pro_img: todo_img,
-    about: "A todo webapp which you can use for your daily tasks.",
-    demo: "https://hassanjavaid1.github.io/To-Do-List/",
-    tech: "JavaScript",
-  },
-  {
-    pro_title: "English Dictionary",
-    pro_img: english_dic_img,
-    about:
-      "English Dictionary for learner with a lots of features like voice pronunciation and word full detail.",
-    demo: "https://hassanjavaid1.github.io/JavaScript-English_Dictionary/",
-    tech: "JavaScript",
-  },
-  {
-    pro_title: "Quiz Website!",
-    pro_img: quiz_img,
-    about: "A Quiz website for testing your knowledge about the world.",
-    demo: "https://hassanjavaid1.github.io/Quiz-App/",
-    tech: "JavaScript",
-  },
-  {
-    pro_title: "Random Password Generator!",
-    pro_img: randomPass_img,
-    about:
-      "RPG You can use it while creating your social accounts with strong password for security.",
-    demo: "https://hassanjavaid1.github.io/Random-Passwords-Generator-/",
-    tech: "JavaScript",
-  },
-  {
-    pro_title: "Background Generator!",
-    pro_img: bg_generator,
-    about: "Generate Beautiful Background for your websites in RGB.",
-    demo: "https://hassanjavaid1.github.io/Background_Generator/",
-    tech: "JavaScript",
-  },
+  // // Javascript projects.
+  // {
+  //   pro_title: "Hangman Game!",
+  //   pro_img: hangman_img,
+  //   about:
+  //     "A hangman game which you can play in your free time either on computer or phone.",
+  //   demo: "https://hassanjavaid1.github.io/Hangman-game/",
+  //   tech: "JavaScript",
+  // },
+  // {
+  //   pro_title: "QR Code Generator!",
+  //   pro_img: qr_img,
+  //   about:
+  //     "Real time QR Code Generator which you can use anywhere even on your mobile to scan the code.",
+  //   demo: "https://hassanjavaid1.github.io/QR-Code-Generator/",
+  //   tech: "JavaScript",
+  // },
+  // {
+  //   pro_title: "To-Do Web App.",
+  //   pro_img: todo_img,
+  //   about: "A todo webapp which you can use for your daily tasks.",
+  //   demo: "https://hassanjavaid1.github.io/To-Do-List/",
+  //   tech: "JavaScript",
+  // },
+  // {
+  //   pro_title: "English Dictionary",
+  //   pro_img: english_dic_img,
+  //   about:
+  //     "English Dictionary for learner with a lots of features like voice pronunciation and word full detail.",
+  //   demo: "https://hassanjavaid1.github.io/JavaScript-English_Dictionary/",
+  //   tech: "JavaScript",
+  // },
+  // {
+  //   pro_title: "Quiz Website!",
+  //   pro_img: quiz_img,
+  //   about: "A Quiz website for testing your knowledge about the world.",
+  //   demo: "https://hassanjavaid1.github.io/Quiz-App/",
+  //   tech: "JavaScript",
+  // },
+  // {
+  //   pro_title: "Random Password Generator!",
+  //   pro_img: randomPass_img,
+  //   about:
+  //     "RPG You can use it while creating your social accounts with strong password for security.",
+  //   demo: "https://hassanjavaid1.github.io/Random-Passwords-Generator-/",
+  //   tech: "JavaScript",
+  // },
+  // {
+  //   pro_title: "Background Generator!",
+  //   pro_img: bg_generator,
+  //   about: "Generate Beautiful Background for your websites in RGB.",
+  //   demo: "https://hassanjavaid1.github.io/Background_Generator/",
+  //   tech: "JavaScript",
+  // },
 ];
 
 //MY Resume.

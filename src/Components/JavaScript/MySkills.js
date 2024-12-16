@@ -11,7 +11,7 @@ function MySkills() {
         <Element name="MYSkills" className="Skills">
           <p className="title_desc" data-aos="fade-up">
             These are the skills that shape your ideas and vision
-            <br />into Reality.👩‍💻
+            <br />into Reality.
           </p>
           <section data-aos="fade-up" className="myskills flex flex-wrap justify-center align-items-center gap-[2rem] m-auto mt-[5rem] gap-y-[4rem] w-[80%] ">
             {mySkills.map(({ tech_img, name, svg_title }) => (
@@ -21,7 +21,7 @@ function MySkills() {
                 className="w-fit"
                 
               >
-                <div className="group w-fit h-[10rem] bg-[#37214d] p-[2.6rem] rounded-[22px] grayscale-[1] hover:bg-[#2A1454] hover:grayscale-0 hover:border hover: border-[#8750f7] transition-colors duration-[1s]">
+                <div className="group w-fit h-[10rem] bg-[#37214d] p-[2.6rem] rounded-[22px] grayscale-[1] hover:bg-[#2A1454] hover:grayscale-0 hover:border hover: border-[#8750f7] transition-colors duration-[.5s]">
                   <img
                     src={tech_img}
                     className=" w-[4rem] group-hover:scale-[1.1] transition-all duration-[0.5s]"

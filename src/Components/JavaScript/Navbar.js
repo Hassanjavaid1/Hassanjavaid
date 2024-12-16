@@ -27,7 +27,7 @@ function Navbar() {
     <>
             <Element name="Navbar" className="Navbar">
       <nav className={navScroll ? "nav_scroll" : ""}>
-        <div className="navbar flex items-center justify-center gap-[7rem]">
+        <div className="navbar flex items-center justify-around">
           <div className="flex items-center ">
             <Link
                 spy={true}
