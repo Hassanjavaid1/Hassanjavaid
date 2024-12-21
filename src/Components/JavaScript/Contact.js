@@ -50,7 +50,7 @@ function Contact() {
             borderRadius: "8px",
           }}
         />{" "}
-        <div className="contact_me flex items-center justify-center gap-20 pb-[10rem]">
+        <div className="contact_me flex items-center justify-center gap-[6rem] pb-[10rem]">
           <div
             className="contact_form bg-[#140C1C] w-fit p-[2rem] rounded-[1rem]"
             data-aos="fade-up"
@@ -94,13 +94,19 @@ function Contact() {
                 <option value="career" className="option">
                   Choose Services
                 </option>
-                <option value="Looking For Frontend Developer" className="option">
+                <option
+                  value="Looking For Frontend Developer"
+                  className="option"
+                >
                   Looking For Frontend Developer
                 </option>
                 <option value="Looking JavaScript Developer" className="option">
                   Looking JavaScript Developer
                 </option>
-                <option value="Looking For ReactJS Developer" className="option">
+                <option
+                  value="Looking For ReactJS Developer"
+                  className="option"
+                >
                   Looking For ReactJS Developer
                 </option>
                 <option value="Other" className="option">

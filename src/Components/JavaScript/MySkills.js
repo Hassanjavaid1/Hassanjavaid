@@ -1,6 +1,7 @@
 import React from "react";
 import { mySkills } from "./CustomApi";
 import { Element } from "react-scroll";
+
 function MySkills() {
   return (
     <>
@@ -11,13 +12,12 @@ function MySkills() {
         <Element name="MYSkills" className="Skills">
           <p className="title_desc" data-aos="fade-up">
             These are the skills that shape your ideas and vision
-            <br />into Reality.
+            <br />into reality.
           </p>
           <section data-aos="fade-up" className="myskills flex flex-wrap justify-center align-items-center gap-[2rem] m-auto mt-[5rem] gap-y-[4rem] w-[80%] ">
-            {mySkills.map(({ tech_img, name, svg_title }) => (
+            {mySkills.map(({ tech_img, name }) => (
               <div
-                title={svg_title}
-                key={svg_title}
+                key={name}
                 className="w-fit"
                 
               >

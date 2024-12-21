@@ -3,6 +3,7 @@ import hassanjavaid from "../Photos/HJ.png";
 import { Link, Element, animateScroll as scroll } from "react-scroll";
 
 function Footer() {
+  let currentYear = new Date().getFullYear();
   return (
     <>
       <div className="footer_content flex items-center justify-center flex-col leading-[3.1]">
@@ -68,8 +69,8 @@ function Footer() {
           </ul>
         </div>
         <h3 className="footer_copyright text-[#7957d1eb] font-[sans-serif] text-[1.1rem]">
-          &copy; 2024 All rights reserved by{" "}
-          <span className="font-bold">Hassanjavaid!</span>
+          &copy; {currentYear} All rights reserved by {""}
+          <span className="font-12">Hassanjavaid.</span>
         </h3>
       </div>
     </>

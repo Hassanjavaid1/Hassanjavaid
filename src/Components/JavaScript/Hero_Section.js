@@ -5,8 +5,6 @@ import hassan from "../Photos/my_pic.png";
 import CountUp from "react-countup";
 import { Element } from "react-scroll";
 
-import { useInView } from "react-intersection-observer";
-
 function Hero_Section() {
   // const [isIntersecting, setIsIntersecting] = useState(false);
   // const targetRef = useRef(null); // Reference to the observed element
@@ -41,35 +39,21 @@ function Hero_Section() {
     <>
       <Element name="About" className="About">
         <section className="hero_section">
-          <div className="hero_container flex items-center justify-center gap-[7rem] mt-16">
+          <div className="hero_container flex items-center justify-center gap-[17rem] mt-16">
             <div className="hero_description" data-aos="fade-right">
               <h3 className="hero_name font-bold text-[2.8rem] font-sans-serif text-[#DDDDDD]">
-                I'm Hassanjavaid!
+                I'm Hassanjavaid
               </h3>
 
               <h1 className="heading_title font-bold text-[3rem] text-uppercase font-sans-serif">
                 FrontEnd React + <br /> NodeJS Developer
               </h1>
-              <div>
-                <img
-                  src={hassan}
-                  alt=""
-                  title="Hassanjavaid"
-                  className="hero_pic media_pic max-h-[28rem] hidden w-[24rem] object-cover rounded-[0.8rem] border-[2px] border-[#9c6cff5e] contrast-[1.5] hover:border-[#7f4ae7] transform hover:rotate-1"
-                />
-              </div>
-              <p className="hero_intro text-[1.25rem] max-w-[100%] w-[31.9rem] font-sans-serif text-[#D6D6D7] mt-[1.3rem]">
+
+              <p className="hero_intro text-[1.4rem] max-w-[100%] w-[31.9rem] font-sans-serif text-[#D6D6D7] mt-[1.3rem]">
                 I break down complex user experinece problems to create
                 integritiy focussed solutions that connect people.
               </p>
               <div className="resume_social flex items-center gap-[2.3rem] space-y-[23] mt-[2rem]">
-                {/* <a
-                href={resume}
-                download
-                className="flex items-center justify-center text-[#8750F7] border border-[#8750F7] py-[0.9rem] px-[2.2rem] rounded-[50px] tracking-[1px] cursor-pointer font-[600] font-sans transition-all duration-0.3s hover:bg-[#8750F7] hover:text-white"
-              >
-                Download CV &darr;
-              </a> */}
                 <div className="flex items-center gap-[1.1rem] z-40">
                   <a
                     href="https://www.linkedin.com/in/hassan-javaid-aa7610290/"
@@ -99,12 +83,12 @@ function Hero_Section() {
                 src={hassan}
                 alt=""
                 title="Hassanjavaid"
-                className="hero_pic max-h-[28rem] w-[24rem] object-cover rounded-[0.8rem] border-[2px] border-[#9c6cff5e] contrast-[1] hover:border-[#7f4ae7] transform hover:rotate-1"
+                class="hero_pic max-h-[30rem] w-[27rem] object-cover rounded-[0.8rem] border-[2px] border-[#9c6cff5e] contrast-[1] hover:border-[#7f4ae7] transform rotate-2 hover:rotate-0"
               />
             </div>
           </div>
 
-          <div className="hero_counter flex items-center justify-center mt-5rem pb-[2rem] gap-[11rem] mt-[2rem]">
+          <div className="hero_counter flex items-center justify-center mt-5rem pb-[2rem] gap-[17rem] mt-[2rem]">
             <h4 className="about_hero text-[3rem] text-[#DDDDDD] font-bold text-[4.6rem] flex items-center justify-center font-sans-serif gap-[0.3rem]">
               <CountUp end={2} />
               <span className="counter_text text-[1rem] font-sans-serif opacity-[0.9] font-[600] ">
@@ -132,5 +116,3 @@ function Hero_Section() {
 }
 
 export default Hero_Section;
-
-

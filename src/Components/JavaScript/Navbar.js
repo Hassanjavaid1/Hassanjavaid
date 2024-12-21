@@ -25,115 +25,116 @@ function Navbar() {
   };
   return (
     <>
-            <Element name="Navbar" className="Navbar">
-      <nav className={navScroll ? "nav_scroll" : ""}>
-        <div className="navbar flex items-center justify-around">
-          <div className="flex items-center ">
-            <Link
+      <Element name="Navbar" className="Navbar">
+        <nav className={navScroll ? "nav_scroll" : ""}>
+          <div className="navbar flex items-center justify-around">
+            <div className="flex items-center ">
+              <Link
                 spy={true}
                 smooth={true}
                 offset={-90}
                 duration={500}
-                to="Navbar">
-              <img
-                src={logo}
-                className="logo_img w-[12rem] max-w-sm h-[9rem] object-cover"
-                alt=""
-              />
-            </Link>
-            <a
-              href="mailto:hassanjavaid159@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="email font[600] font-sans-serif ml-[-1.8rem] transition-all duration-500 hover:text-[#7c4be6] "
+                to="Navbar"
+              >
+                <img
+                  src={logo}
+                  className="logo_img w-[12rem] max-w-sm h-[9rem] object-cover"
+                  alt=""
+                />
+              </Link>
+              <a
+                href="mailto:hassanjavaid159@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="email font[600] font-sans-serif ml-[-1.8rem] transition-all duration-500 hover:text-[#7c4be6] "
+              >
+                hassanjavaid159@gmail.com
+              </a>
+            </div>
+            <ul
+              className={`flex items-center justify-center gap-[2rem] font-sans-serif font-[600] ${
+                toggle ? "visible" : "hide"
+              }`}
             >
-              hassanjavaid159@gmail.com
-            </a>
-          </div>
-          <ul
-            className={`flex items-center justify-center gap-[2rem] font-sans-serif font-[600] ${
-              toggle ? "visible" : "hide"
-            }`}
-          >
-            <li>
+              <li>
+                <Link
+                  className="nav_link"
+                  activeClass="nav_active"
+                  spy={true}
+                  smooth={true}
+                  offset={-50}
+                  duration={500}
+                  to="About"
+                  onClick={handleDisplay}
+                >
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="nav_link"
+                  activeClass="nav_active"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                  to="Portfolio"
+                  onClick={handleDisplay}
+                >
+                  Portfolio
+                </Link>{" "}
+              </li>
+              <li>
+                <Link
+                  className="nav_link"
+                  activeClass="nav_active"
+                  spy={true}
+                  smooth={true}
+                  offset={-110}
+                  duration={500}
+                  to="Skills"
+                  onClick={handleDisplay}
+                >
+                  Skills
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="nav_link"
+                  activeClass="nav_active"
+                  spy={true}
+                  smooth={true}
+                  offset={-150}
+                  duration={500}
+                  to="Contact"
+                  onClick={handleDisplay}
+                >
+                  Contact
+                </Link>
+              </li>
+            </ul>
+            <div className="media_flex sm:flex sm:items-center sm:gap-8 ">
               <Link
-                className="nav_link"
-                activeClass="nav_active"
-                spy={true}
-                smooth={true}
-                offset={-50}
-                duration={500}
-                to="About"
-                onClick={handleDisplay}
-              >
-                About
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="nav_link"
-                activeClass="nav_active"
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={500}
-                to="Portfolio"
-                onClick={handleDisplay}
-              >
-                Portfolio
-              </Link>{" "}
-            </li>
-            <li>
-              <Link
-                className="nav_link"
-                activeClass="nav_active"
-                spy={true}
-                smooth={true}
-                offset={-110}
-                duration={500}
-                to="Skills"
-                onClick={handleDisplay}
-              >
-                Skills
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="nav_link"
-                activeClass="nav_active"
+                activeClass="button"
                 spy={true}
                 smooth={true}
                 offset={-150}
                 duration={500}
                 to="Contact"
-                onClick={handleDisplay}
               >
-                Contact
+                <button className="btn font-sans-serif font-bold rounded-[50px] py-[11px] px-[34px] sm:pt-[14px] sm:pb-[14px]">
+                  Hire Me!
+                </button>
               </Link>
-            </li>
-          </ul>
-          <div className="media_flex sm:flex sm:items-center sm:gap-8 ">
-            <Link
-              activeClass="button"
-              spy={true}
-              smooth={true}
-              offset={-150}
-              duration={500}
-              to="Contact"
-            >
-              <button className="btn font-sans-serif font-bold rounded-[50px] py-[12px] px-[30px] sm:pt-[14px] sm:pb-[14px]">
-                Hire Me!
-              </button>
-            </Link>
-            <label htmlFor="check" className="burger hidden">
-              <input type="checkbox" id="check" onClick={handleDisplay} />
-              <span></span>
-              <span></span>
-              <span></span>
-            </label>
+              <label htmlFor="check" className="burger hidden">
+                <input type="checkbox" id="check" onClick={handleDisplay} />
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
       </Element>
     </>
   );
