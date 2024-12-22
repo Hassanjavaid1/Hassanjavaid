@@ -6,34 +6,24 @@ import CountUp from "react-countup";
 import { Element } from "react-scroll";
 
 function Hero_Section() {
-  // const [isIntersecting, setIsIntersecting] = useState(false);
-  // const targetRef = useRef(null); // Reference to the observed element
+  const [isIntersecting, setIsIntersecting] = useState(false);
+  const targetRef = useRef(null);
 
-  // useEffect(() => {
-  //   // Define the callback function that will handle intersection events
-  //   const observerCallback = (entries,observe) => {
-  //     const [entry] = entries; // We only observe one element, so we get the first entry
-  //     console.log("entery:", entries);
-  //     setIsIntersecting(entry.isIntersecting); // Update state based on intersection
-  //   };
-
-  //   // Set up Intersection Observer with desired options
-  //   const observerOptions = {
-  //     root: null, // Observe against the viewport
-  //     rootMargin: "0px",
-  //     threshold: 0.1, // Trigger when 50% of the element is visible
-  //   };
-
-  //   // Create a new Intersection Observer
-  //   const observer = new IntersectionObserver(
-  //     observerCallback,
-  //     observerOptions
-  //   );
-
-  //   // Start observing the target element
-  //   if (targetRef.current) observer.observe(targetRef.current);
-
-  // }, []);
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setIsIntersecting(true);
+          }
+        });
+      },
+      {
+        threshold: 0.7,
+      }
+    );
+    observer.observe(targetRef.current);
+  }, []);
 
   return (
     <>
@@ -87,27 +77,33 @@ function Hero_Section() {
               />
             </div>
           </div>
-
-          <div className="hero_counter flex items-center justify-center mt-5rem pb-[2rem] gap-[17rem] mt-[2rem]">
-            <h4 className="about_hero text-[3rem] text-[#DDDDDD] font-bold text-[4.6rem] flex items-center justify-center font-sans-serif gap-[0.3rem]">
-              <CountUp end={2} />
-              <span className="counter_text text-[1rem] font-sans-serif opacity-[0.9] font-[600] ">
-                Years of <br /> Experience
-              </span>
-            </h4>
-            <h4 className="about_hero text-[3rem] text-[#DDDDDD] font-bold text-[4.6rem] flex items-center justify-center font-sans-serif gap-[0.3rem]">
-              <CountUp end={parseFloat(9)} />+
-              <span className="counter_text text-[1rem] font-sans-serif opacity-[0.9] font-[600] ">
-                Projects <br /> Completed
-              </span>
-            </h4>
-            <h4 className="about_hero text-[3rem] text-[#DDDDDD] font-bold text-[4.6rem] flex items-center justify-center font-sans-serif gap-[0.3rem]">
-              <CountUp end={1} />{" "}
-              <span className="counter_text text-[1rem] font-sans-serif opacity-[0.9] font-[600] ">
-                Internship <br />
-                Completed
-              </span>
-            </h4>
+          <div
+            ref={targetRef}
+            className="hero_counter flex items-center justify-center mt-5rem pb-[2rem] gap-[17rem] mt-[2rem]"
+          >
+            {isIntersecting && (
+              <>
+                <h4 className="about_hero text-[3rem] text-[#DDDDDD] font-bold text-[4.6rem] flex items-center justify-center font-sans-serif gap-[0.3rem]">
+                  <CountUp end={2} />
+                  <span className="counter_text text-[1rem] font-sans-serif opacity-[0.9] font-[600] ">
+                    Years of <br /> Experience
+                  </span>
+                </h4>
+                <h4 className="about_hero text-[3rem] text-[#DDDDDD] font-bold text-[4.6rem] flex items-center justify-center font-sans-serif gap-[0.3rem]">
+                  <CountUp end={parseFloat(9)} />+
+                  <span className="counter_text text-[1rem] font-sans-serif opacity-[0.9] font-[600] ">
+                    Projects <br /> Completed
+                  </span>
+                </h4>
+                <h4 className="about_hero text-[3rem] text-[#DDDDDD] font-bold text-[4.6rem] flex items-center justify-center font-sans-serif gap-[0.3rem]">
+                  <CountUp end={1} />{" "}
+                  <span className="counter_text text-[1rem] font-sans-serif opacity-[0.9] font-[600] ">
+                    Internship <br />
+                    Completed
+                  </span>
+                </h4>
+              </>
+            )}
           </div>
         </section>
       </Element>
