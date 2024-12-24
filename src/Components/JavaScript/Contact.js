@@ -32,7 +32,7 @@ function Contact() {
 
   return (
     <>
-      <Element name="Contact" className="Contact">
+      <Element name="Contact" className="Contact container_width">
         <ToastContainer
           position="top-right"
           autoClose={4000}
@@ -50,20 +50,19 @@ function Contact() {
             borderRadius: "8px",
           }}
         />{" "}
-        <div className="contact_me flex items-center justify-center gap-[6rem] pb-[10rem]">
-          <div
-            className="contact_form bg-[#140C1C] w-fit p-[2rem] rounded-[1rem]"
+        <div className="contact_me flexClass !justify-evenly gap-3 paddingTB">
+          <div className="contact_form bg-[#140C1C] p-[2.2rem] rounded-[1rem]"
             data-aos="fade-up"
           >
             <h1 className="heading_title">Let’s work together!</h1>
             <p className="title_desc text-[1.1rem] font-[sans-serif]">
-              I design and code beautifully simple things and i love <br /> what
-              i do. Just simple like that!
+              I design and code beautifully simple things and i love what i do.{" "}
+              <br /> Just simple like that!
             </p>
             <form
               ref={form}
               onSubmit={sendEmail}
-              className="flex flex-col gap-[1rem] w-fit mt-[1rem] gap-x-10"
+              className="flex flex-col gap-[1rem] mt-[1rem] gap-x-10"
             >
               <input
                 type="text"
@@ -72,18 +71,18 @@ function Contact() {
                 name="name"
                 required
               />
-              <div className="input_flex">
+              <div className="input_flex w-full">
                 <input
                   type="email"
                   placeholder="Email Address"
-                  className="input_field"
+                  className="input_field w-[50%]"
                   name="email"
                   required
                 />
                 <input
                   type="text"
                   placeholder="Phone Number"
-                  className="input_field"
+                  className="input_field w-[50%]"
                   name="number"
                 />
               </div>
@@ -91,7 +90,7 @@ function Contact() {
                 name="service"
                 className="input_field text-[1.1rem] font-sans-serif]"
               >
-                <option value="career" className="option">
+                <option value="No Service Selected" className="option">
                   Choose Services
                 </option>
                 <option
@@ -99,9 +98,6 @@ function Contact() {
                   className="option"
                 >
                   Looking For Frontend Developer
-                </option>
-                <option value="Looking JavaScript Developer" className="option">
-                  Looking JavaScript Developer
                 </option>
                 <option
                   value="Looking For ReactJS Developer"
@@ -125,7 +121,7 @@ function Contact() {
               </button>
             </form>
           </div>
-          <div className="my_detail flex flex-col gap-6">
+          <div className="my_detail w-[40%] flex flex-col gap-6">
             <div
               data-aos="fade-up"
               className="info flex items-center gap-4 w-[31rem] leading-[1.8rem]"

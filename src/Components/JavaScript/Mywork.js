@@ -7,19 +7,22 @@ function Mywork() {
   const [filterProject, setfilterProject] = useState(projects);
   return (
     <>
-      <Element name="Portfolio" className="Works">
-        <section className="works text-center pt-[8rem] pb-[6rem] relative">
-          <h1 className="heading_title" data-aos="fade-up">My Recent Works</h1>
+      <Element name="Portfolio" className="Works container_width">
+        <section className="works text-center paddingTB relative">
+          <h1 className="heading_title" data-aos="fade-up">
+            My Recent Works
+          </h1>
           <p className="title_desc" data-aos="fade-up">
-            I put your ideas and your vision into a unique web project that <br /> inspires you and your customers.
+            I put your ideas and your vision into a unique web project that{" "}
+            <br /> inspires you and your customers.
           </p>
 
-            <div className="mywork_shadow"></div>
-          <div className="grid grid-cols-[repeat(2,0fr)] justify-center mt-[4rem] gap-[3rem]">
+          <div className="mywork_shadow"></div>
+          <div className="grid grid-cols-2 justify-center mt-[4rem] gap-[2rem]">
             {filterProject.map(({ pro_title, pro_img, about, demo }) => (
               <div
                 key={pro_title}
-                className="mywork_parent project_demo flex items-center flex-col w-[38rem]"
+                className="mywork_parent project_demo flex items-center flex-col"
               >
                 <img
                   src={pro_img}
@@ -27,12 +30,12 @@ function Mywork() {
                 />
                 <a
                   href={demo}
-                  className=" h-[0]"
+                  className=" h-[0] w-[100%]"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <div className="demo_box flex items-center w-[94%] m-auto relative bottom-[9rem] gap-[3rem] p-[1rem] text-left rounded-[10px] w-[30rem] bg-gradient-to-br from-purple-600 to-[#320d4e] text-left">
-                    <div className="h-[6rem] demo_container">
+                    <div className="demo_container">
                       <button className="pro_title text-[1.9rem] font-[sans-serif] font-bold text-ellipsis overflow-hidden whitespace-nowrap text-left">
                         {pro_title}
                       </button>

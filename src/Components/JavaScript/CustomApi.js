@@ -37,13 +37,13 @@ const projects = [
     pro_title: "iFlix Movies",
     pro_img: iflix_img,
     about:
-      "iFlix is a movie website which show real time movie and web series data.",
+      "iFlix is a cutting-edge movie information platform that provides an immersive experience for movie enthusiasts.",
     demo: "https://hassanjavaid1.github.io/reactmovieapp/",
   },
   {
-    pro_title: "E-Commerce Website",
+    pro_title: "Big-Commerce Web App",
     pro_img: e_commerce_img,
-    about: "E-Commerce website with a lots of features.",
+    about: "BigCommerce is a personal e-commerce project featuring user authentication, customizable storefronts etc.",
     demo: "https://hassanjavaid1.github.io/React_BIGCOMMERCE/",
   },
 ];

@@ -25,14 +25,20 @@ body::-webkit-scrollbar-thumb {
   max-width: 100%;
 }
 
+
 .btn {
-  background: linear-gradient(61deg, #9669f3, transparent);
-  transition: background-position 0.4s ease;
+  background-image: linear-gradient(
+    to right,
+    #8750f7 0%,
+    #2a1454 51%,
+    #8750f7 100%
+  );
+  background-size: 200%;
+  transition: 0.4s;
 }
 .btn:hover {
-  background: linear-gradient(to left, #9669f3 40%, #9769f359 100%);
-  background-size: 200% 100%;
-  background-position: left bottom;
+  color: #d5d4d4;
+  background-position: -100%;
 }
 .nav_link {
   position: relative;
@@ -53,56 +59,6 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
 }
 
-/* HAMBURGER */
-
-label {
-  display: flex;
-  flex-direction: column;
-  width: 3.4rem;
-  cursor: pointer;
-  height: 3.4rem;
-}
-
-label span {
-  background: #fff;
-  border-radius: 10px;
-  height: 7px;
-  margin: 7px 0;
-  transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
-}
-
-span:nth-of-type(1) {
-  width: 50%;
-}
-
-span:nth-of-type(2) {
-  width: 100%;
-}
-
-span:nth-of-type(3) {
-  width: 75%;
-}
-
-input[type="checkbox"] {
-  display: none;
-}
-
-input[type="checkbox"]:checked ~ span:nth-of-type(1) {
-  transform-origin: bottom;
-  transform: rotatez(45deg) translate(8px, 0px);
-}
-
-input[type="checkbox"]:checked ~ span:nth-of-type(2) {
-  transform-origin: top;
-  transform: rotatez(-45deg);
-}
-
-input[type="checkbox"]:checked ~ span:nth-of-type(3) {
-  transform-origin: bottom;
-  width: 50%;
-  transform: translate(30px, -11px) rotatez(45deg);
-}
-
 /* Active class */
 .nav_active {
   position: relative;
@@ -120,7 +76,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 }
 
 .heading_title {
-  background: -webkit-linear-gradient(#8e5af7, #e2d4fe);
+  background: linear-gradient(to right, #8750f7 0%, #ffffff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 3rem;
@@ -177,6 +133,7 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
   color: transparent;
   overflow: hidden;
   position: absolute;
+  left: 40%;
   opacity: 0.3;
 }
 .about_hero::before {
@@ -186,17 +143,16 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 .mywork {
   background-color: #050709;
 }
-.myskills{
+.myskills {
   background-color: #0f0715;
 }
 /*Mywork*/
-
 
 .demo_box {
   visibility: hidden;
   display: flex;
 }
-.mywork_parent{
+.mywork_parent {
   z-index: 1;
 }
 .mywork_parent:hover .demo_box {
@@ -217,16 +173,16 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 
 .contact {
   background-color: #050709;
-  padding-top: 5rem;
 }
 .input_field {
-  background: linear-gradient(45deg, #0000008a, transparent);
-  padding: 0.8rem;
-  border: 1px solid grey;
+  background: #050709;
+  padding: 0.9rem;
+  border: 1px solid #1e1e1e;
   border-radius: 7px;
   font-family: sans-serif;
   transition: 0.6s;
   font-size: 17px;
+  resize: none;
 }
 .input_field:focus {
   outline: none;
@@ -242,14 +198,12 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 }
 
 .contact_svg {
-  background: linear-gradient(39deg, #6238b7, transparent);
+  background: linear-gradient(2deg, #653abc, #653abc5e);
   border-radius: 50px;
   font-size: 1.4rem;
   padding: 0.9rem;
 }
-.contact_svg:hover {
-  background: linear-gradient(39deg, #7143ce, transparent);
-}
+
 /* Footer */
 
 .footer {
@@ -261,18 +215,42 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
 .nav_scroll {
   background-color: black;
   position: fixed;
-  top: 0;
-  z-index: 999;
+  z-index: 99;
   width: 100%;
+  top: 0;
+  opacity: 1;
+  animation: bounceInDown 1s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
   box-shadow: 0rem -1.5rem 3rem #64308b;
-  transition: all 0.5s ease-in-out;
+}
+@keyframes bounceInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
 }
 
 .nav_scroll .logo_img {
   height: 6rem;
 }
 nav {
-  transition: all 0.5s ease-in;
+  transition: all 0.5s;
 }
 
 nav .nav_scroll {

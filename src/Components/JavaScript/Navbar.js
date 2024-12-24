@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from "react";
 import logo from "../Photos/HJ.png";
 import { Link, Element, animateScroll as scroll } from "react-scroll";
-import { Link as RouterLink } from "react-router-dom";
+import { RxCross1 } from "react-icons/rx";
+import { FaAlignRight } from "react-icons/fa6";
+
 function Navbar() {
   const [navScroll, setNavScroll] = useState(false);
   const [toggle, settoggle] = useState(false);
+
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
@@ -20,14 +23,20 @@ function Navbar() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [navScroll]);
+
   const handleDisplay = () => {
-    settoggle(!toggle);
+    if(!toggle){
+      settoggle(true);
+    }else{
+      settoggle(false)
+    }
   };
+
   return (
     <>
       <Element name="Navbar" className="Navbar">
         <nav className={navScroll ? "nav_scroll" : ""}>
-          <div className="navbar flex items-center justify-around">
+          <div className="navbar flexClass container_width">
             <div className="flex items-center ">
               <Link
                 spy={true}
@@ -113,7 +122,7 @@ function Navbar() {
                 </Link>
               </li>
             </ul>
-            <div className="media_flex sm:flex sm:items-center sm:gap-8 ">
+            <div className="media_flex">
               <Link
                 activeClass="button"
                 spy={true}
@@ -122,16 +131,17 @@ function Navbar() {
                 duration={500}
                 to="Contact"
               >
-                <button className="btn font-sans-serif font-bold rounded-[50px] py-[11px] px-[34px] sm:pt-[14px] sm:pb-[14px]">
+                <button className="btn font-sans-serif font-bold text-nowrap rounded-[50px] py-[17px] px-[35px]">
                   Hire Me!
                 </button>
               </Link>
-              <label htmlFor="check" className="burger hidden">
-                <input type="checkbox" id="check" onClick={handleDisplay} />
-                <span></span>
-                <span></span>
-                <span></span>
-              </label>
+              {
+                !toggle?(
+                  <FaAlignRight className="burger hidden text-[3rem]" onClick={handleDisplay}/>
+                ):(
+                  <RxCross1 className=" text-[3rem] burger hidden" onClick={handleDisplay}/>
+                )
+              }
             </div>
           </div>
         </nav>

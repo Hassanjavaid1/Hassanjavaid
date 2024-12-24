@@ -6,7 +6,7 @@ function Footer() {
   let currentYear = new Date().getFullYear();
   return (
     <>
-      <div className="footer_content flex items-center justify-center flex-col leading-[3.1]">
+      <div className="footer_content container_width flexClass flex-col leading-[3.1]">
         <img
           src={hassanjavaid}
           className="footer_img w-[10rem] max-w-sm mb-[-1.2rem]"
@@ -70,7 +70,7 @@ function Footer() {
         </div>
         <h3 className="footer_copyright text-[#7957d1eb] font-[sans-serif] text-[1.1rem]">
           &copy; {currentYear} All rights reserved by {""}
-          <span className="font-12">Hassanjavaid.</span>
+          <span className="font-12 text-white font-500">Hassanjavaid</span>
         </h3>
       </div>
     </>

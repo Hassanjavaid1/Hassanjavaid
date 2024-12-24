@@ -1,6 +1,8 @@
 import React, { Suspense, useEffect, useState } from "react";
 import "./App.css";
-import "./AppMedia.css";
+import './Components/CSS/CustomStyle.css'
+import second from './Components/CSS/MediaQueries.css'
+//import "./AppMedia.css";
 import Preloader from "./Components/JavaScript/Preloader";
 import CircularProgress from "./Components/JavaScript/CircularProgress";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -44,7 +46,8 @@ function App() {
             <div className="footer">
               <Footer />
             </div>
-          </div>
+
+            </div>
         </BrowserRouter>
       </Suspense>
       <CircularProgress />
