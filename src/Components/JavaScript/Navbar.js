@@ -25,19 +25,19 @@ function Navbar() {
   }, [navScroll]);
 
   const handleDisplay = () => {
-    if(!toggle){
+    if (!toggle) {
       settoggle(true);
-    }else{
-      settoggle(false)
+    } else {
+      settoggle(false);
     }
   };
 
   return (
     <>
-      <Element name="Navbar" className="Navbar">
-        <nav className={navScroll ? "nav_scroll" : ""}>
-          <div className="navbar flexClass container_width">
-            <div className="flex items-center ">
+      <Element name="Navbar" className={navScroll ? "nav_scroll" : ""}>
+        <nav className="container mx-auto px-6 py-4 relative lg:px-10 lg:py-6 xl:px-28 xl:py-5">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center lg:gap-12">
               <Link
                 spy={true}
                 smooth={true}
@@ -47,7 +47,7 @@ function Navbar() {
               >
                 <img
                   src={logo}
-                  className="logo_img w-[12rem] max-w-sm h-[9rem] object-cover"
+                  className="w-[80px] h-[55px] logo_img  object-cover 2xl:w-[90px] 2xl:h-[65px]"
                   alt=""
                 />
               </Link>
@@ -55,15 +55,15 @@ function Navbar() {
                 href="mailto:hassanjavaid159@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="email font[600] font-sans-serif ml-[-1.8rem] transition-all duration-500 hover:text-[#7c4be6] "
+                className="hidden email font[600] font-sans-serif ml-[-1.8rem] transition-all duration-500 hover:text-[#7c4be6] lg:block 2xl:font-semibold"
               >
                 hassanjavaid159@gmail.com
               </a>
             </div>
             <ul
-              className={`flex items-center justify-center gap-[2rem] font-sans-serif font-[600] ${
-                toggle ? "visible" : "hide"
-              }`}
+              className={`${
+                toggle ? "flex" : "hidden"
+              } flex-col items-center justify-center gap-8 absolute left-0 right-0 top-20 z-50  h-screen bg-[#2a1454] text-4xl font-sans-serif font-[600] lg:flex lg:flex-row lg:static lg:bg-transparent lg:text-lg lg:h-auto`}
             >
               <li>
                 <Link
@@ -122,7 +122,7 @@ function Navbar() {
                 </Link>
               </li>
             </ul>
-            <div className="media_flex">
+            <div className="flex items-center gap-4">
               <Link
                 activeClass="button"
                 spy={true}
@@ -130,18 +130,21 @@ function Navbar() {
                 offset={-150}
                 duration={500}
                 to="Contact"
-              >
-                <button className="btn font-sans-serif font-bold text-nowrap rounded-[50px] py-[17px] px-[35px]">
-                  Hire Me!
-                </button>
-              </Link>
-              {
-                !toggle?(
-                  <FaAlignRight className="burger hidden text-[3rem]" onClick={handleDisplay}/>
-                ):(
-                  <RxCross1 className=" text-[3rem] burger hidden" onClick={handleDisplay}/>
-                )
-              }
+              ></Link>
+              <button className="btn font-sans-serif font-bold text-nowrap rounded-full py-3 px-7 xl:px-10 xl:py-4">
+                Hire Me!
+              </button>
+              {!toggle ? (
+                <FaAlignRight
+                  className="burger text-4xl lg:hidden"
+                  onClick={handleDisplay}
+                />
+              ) : (
+                <RxCross1
+                  className="text-4xl burger lg:hidden"
+                  onClick={handleDisplay}
+                />
+              )}
             </div>
           </div>
         </nav>

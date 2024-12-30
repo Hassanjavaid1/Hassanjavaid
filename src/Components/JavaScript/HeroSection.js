@@ -27,19 +27,18 @@ function Hero_Section() {
 
   return (
     <>
-      <Element name="About" className="About container_width">
-        <section className="hero_section">
-          <div className="hero_container flexClass !justify-around mt-16">
-            <div className="hero_description w-1/2" data-aos="fade-right">
-              <h3 className="hero_name font-bold text-[2.8rem] font-sans-serif text-[#DDDDDD]">
+      <Element name="About" className="About"> 
+        <section className="container mx-auto p-8 mt-10 xl:px-28">
+          <div className="flex flex-col-reverse items-center justify-around md:flex-row">
+            <div className="mt-8 md:w-2/3 2xl:w-2/4" data-aos="fade-right">
+              <h3 className="mb-3 font-bold text-3xl font-sans-serif text-[#DDDDDD] sm:text-4xl md:text-3xl lg:text-4xl 2xl:text-5xl">
                 I'm Hassanjavaid
               </h3>
-
-              <h1 className="heading_title font-bold text-[3rem] text-uppercase font-sans-serif">
+              <h1 className="heading_title font-bold text-5xl text-uppercase font-sans sm:leading-normal md:text-4xl md:leading-normal lg:text-5xl lg:leading-normal 2xl:text-6xl 2xl:leading-normal">
                 FrontEnd React + <br /> NodeJS Developer
               </h1>
 
-              <p className="hero_intro text-[1.4rem] max-w-[100%] w-[31.9rem] font-sans-serif text-[#D6D6D7] mt-[1.3rem]">
+              <p className="hero_intro text-[1.4rem] font-sans-serif text-[#D6D6D7] mt-[1.3rem]">
                 I break down complex user experience problems to create
                 integritiy focussed solutions that connect people.
               </p>
@@ -66,36 +65,35 @@ function Hero_Section() {
                 </div>
               </div>
             </div>
-            <h1 className="animated-text">HI</h1>
 
-            <div data-aos="fade-left" className="">
+            <h1 className="hidden animated-text md:block">HI</h1>
+            <div data-aos="fade-left" className="hero_pic relative">
               <img
                 src={hassan}
                 alt=""
-                className="hero_pic object-cover rounded-[0.8rem] border-[2px] border-[#9c6cff5e] hover:border-[#7f4ae7] transform rotate-2 hover:rotate-0"
+                className=" object-cover rounded-[0.8rem] border-[2px] border-[#9c6cff5e] hover:border-[#7f4ae7] transform rotate-2 hover:rotate-0"
               />
             </div>
-            
           </div>
           <div
             ref={targetRef}
-            className="hero_counter flex items-center justify-evenly flex-wrap mt-5rem pb-[2rem] mt-[5rem]"
+            className="hero_counter flex items-center flex-wrap gap-8 mt-5rem pb-[2rem] mt-[5rem] md:justify-around"
           >
             {isIntersecting && (
               <>
-                <h4 className="about_hero text-[3rem] text-[#DDDDDD] font-400 text-[4.6rem] flex items-center justify-center font-sans-serif gap-[0.3rem]">
+                <h4 className="about_hero text-[#DDDDDD] font-400 text-7xl flex items-center justify-center font-sans-serif gap-2 sm:font-semibold">
                   <CountUp end={2} />
                   <span className="counter_text text-[1rem] font-sans-serif opacity-[0.9] ">
                     Years of <br /> Experience
                   </span>
                 </h4>
-                <h4 className="about_hero text-[3rem] text-[#DDDDDD] font-400 text-[4.6rem] flex items-center justify-center font-sans-serif gap-[0.3rem]">
+                <h4 className="about_hero  text-[#DDDDDD] font-400 text-7xl flex items-center justify-center font-sans-serif gap-2 sm:font-semibold">
                   <CountUp end={parseFloat(9)} />+
                   <span className="counter_text text-[1rem] font-sans-serif opacity-[0.9] ">
                     Projects <br /> Completed
                   </span>
                 </h4>
-                <h4 className="about_hero text-[3rem] text-[#DDDDDD] font-400 text-[4.6rem] flex items-center justify-center font-sans-serif gap-[0.3rem]">
+                <h4 className="about_hero text-[#DDDDDD] font-400 text-7xl flex items-center justify-center font-sans-serif gap-2 sm:font-semibold">
                   <CountUp end={1} />{" "}
                   <span className="counter_text text-[1rem] font-sans-serif opacity-[0.9] ">
                     Internship <br />

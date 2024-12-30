@@ -1,7 +1,7 @@
 import React, { Suspense, useEffect, useState } from "react";
 import "./App.css";
 import './Components/CSS/CustomStyle.css'
-import second from './Components/CSS/MediaQueries.css'
+//import second from './Components/CSS/MediaQueries.css'
 //import "./AppMedia.css";
 import Preloader from "./Components/JavaScript/Preloader";
 import CircularProgress from "./Components/JavaScript/CircularProgress";
@@ -9,8 +9,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Aos from "aos";
 
 const Navbar = React.lazy(() => import("./Components/JavaScript/Navbar"));
-const Hero_Section = React.lazy(() =>
-  import("./Components/JavaScript/Hero_Section")
+const HeroSection = React.lazy(() =>
+  import("./Components/JavaScript/HeroSection")
 );
 const Mywork = React.lazy(() => import("./Components/JavaScript/Mywork"));
 const MySkills = React.lazy(() => import("./Components/JavaScript/MySkills"));
@@ -31,12 +31,14 @@ function App() {
     <>
       <Suspense fallback={<Preloader />}>
         <BrowserRouter basename="/Hassanjavaid">
-          <div className="container">
+        <div className="hero_background">
             <Navbar />
-            <Hero_Section />
-            <div className="mywork">
+           <HeroSection /> 
+        </div>
+             <div className="mywork">
               <Mywork />
             </div>
+           
             <div className="myskills">
               <MySkills />
             </div>
@@ -47,7 +49,6 @@ function App() {
               <Footer />
             </div>
 
-            </div>
         </BrowserRouter>
       </Suspense>
       <CircularProgress />

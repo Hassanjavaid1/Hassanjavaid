@@ -6,14 +6,13 @@ function Footer() {
   let currentYear = new Date().getFullYear();
   return (
     <>
-      <div className="footer_content container_width flexClass flex-col leading-[3.1]">
+      <div className="container mx-auto flex items-center justify-center flex-col leading-[3.1] pt-12 pb-6">
         <img
           src={hassanjavaid}
-          className="footer_img w-[10rem] max-w-sm mb-[-1.2rem]"
+          className="footer_img w-[80px] h-[55px]"
           alt=""
         />
-        <div className=" flex items-center justify-center ">
-          <ul className="footer_ul flex items-center justify-center gap-[2rem] font-sans-serif font-[600]">
+          <ul className="footer_ul flex items-center justify-center gap-6 flex-wrap font-sans font-semibold mt-6">
             <li>
               <Link
                 className="nav_link"
@@ -67,8 +66,7 @@ function Footer() {
               </Link>
             </li>
           </ul>
-        </div>
-        <h3 className="footer_copyright text-[#7957d1eb] font-[sans-serif] text-[1.1rem]">
+        <h3 className="footer_copyright flex items-center flex-col mt-4 text-[#7957d1eb] font-sans text-lg sm:block">
           &copy; {currentYear} All rights reserved by {""}
           <span className="font-12 text-white font-500">Hassanjavaid</span>
         </h3>

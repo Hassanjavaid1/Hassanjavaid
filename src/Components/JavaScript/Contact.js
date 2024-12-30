@@ -32,30 +32,18 @@ function Contact() {
 
   return (
     <>
-      <Element name="Contact" className="Contact container_width">
-        <ToastContainer
-          position="top-right"
-          autoClose={4000}
-          hideProgressBar={false}
-          newestOnTop={false}
-          closeOnClick
-          rtl={false}
-          pauseOnFocusLoss
-          draggable
-          pauseOnHover
-          toastStyle={{
-            background:
-              "linear-gradient(45deg, rgb(26 17 46 / 96%), rgb(111 50 157))",
-            color: "#ffffff",
-            borderRadius: "8px",
-          }}
-        />{" "}
-        <div className="contact_me flexClass !justify-evenly gap-3 paddingTB">
-          <div className="contact_form bg-[#140C1C] p-[2.2rem] rounded-[1rem]"
+      <Element
+        name="Contact"
+        className="container mx-auto px-2 py-12 sm:w-11/12 md:py-16 lg:py-20 xl:px-28">
+        <div className="flex flex-col-reverse justify-around gap-6 md:flex-row md:items-center 2xl:gap-10">
+          <div
+            className="contact_form bg-[#140C1C] p-4 rounded-2xl sm:p-8"
             data-aos="fade-up"
           >
-            <h1 className="heading_title">Let’s work together!</h1>
-            <p className="title_desc text-[1.1rem] font-[sans-serif]">
+            <h1 className="heading_title text-4xl font-bold sm:text-5xl">
+              Let’s work together!
+            </h1>
+            <p className="title_desc mt-4 text-lg font-sans">
               I design and code beautifully simple things and i love what i do.{" "}
               <br /> Just simple like that!
             </p>
@@ -71,18 +59,18 @@ function Contact() {
                 name="name"
                 required
               />
-              <div className="input_flex w-full">
+              <div className="flex flex-col input_flex w-full lg:flex-row">
                 <input
                   type="email"
                   placeholder="Email Address"
-                  className="input_field w-[50%]"
+                  className="input_field"
                   name="email"
                   required
                 />
                 <input
                   type="text"
                   placeholder="Phone Number"
-                  className="input_field w-[50%]"
+                  className="input_field"
                   name="number"
                 />
               </div>
@@ -116,28 +104,28 @@ function Contact() {
                 className="input_field h-[185px]"
                 name="message"
               ></textarea>
-              <button className="btn w-fit font-[sans-serif] py-4 px-6 rounded-[50px] font-[600]">
+              <button className="btn w-fit font-sans py-4 px-6 rounded-[50px] font-[600]">
                 Send Message
               </button>
             </form>
           </div>
-          <div className="my_detail w-[40%] flex flex-col gap-6">
+          <div className="my_detail flex flex-col gap-6 2xl:w-1/2">
             <div
               data-aos="fade-up"
-              className="info flex items-center gap-4 w-[31rem] leading-[1.8rem]"
+              className="info flex items-center gap-4 leading-[1.8rem]"
             >
               <div className="contact_svg w-fit">
                 <FaLinkedinIn />
               </div>
               <div className="flex flex-col">
-                <span className="font-[sans-serif] capitalize opacity-[0.9] text-[17px]">
+                <span className="font-sans capitalize opacity-90  sm:text-lg">
                   Linkedin
                 </span>
                 <a
                   href="https://linkedin.com/in/hassan-javaid159"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className=" transition-all duration-900 hover:text-[#6650F7] text-[1.2rem] font-[sans-serif] font-[600 tracking-[1px]"
+                  className="transition-all duration-900 hover:text-[#6650F7] font-sans sm:text-xl"
                 >
                   Visit Linkedin
                 </a>
@@ -145,20 +133,20 @@ function Contact() {
             </div>
             <div
               data-aos="fade-up"
-              className="info flex items-center gap-4 w-[31rem] leading-[1.8rem]"
+              className="info flex items-center gap-4 leading-[1.8rem]"
             >
               <div className="contact_svg w-fit">
                 <MdOutlineMailOutline />
               </div>
               <div className="flex flex-col">
-                <span className="font-[sans-serif] capitalize opacity-[0.9] text-[17px]">
+                <span className="font-sans capitalize opacity-90 sm:text-lg">
                   Email
                 </span>
                 <a
                   href="mailto:hassanjavaid159@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className=" transition-all duration-900 hover:text-[#6650F7] text-[1.2rem] font-[sans-serif] font-[600 tracking-[1px]"
+                  className=" transition-all duration-900 hover:text-[#6650F7] font-sans sm:text-xl"
                 >
                   hassanjavaid159@gmail.com
                 </a>
@@ -167,20 +155,20 @@ function Contact() {
 
             <div
               data-aos="fade-up"
-              className="info flex items-center gap-4 w-[31rem] leading-[1.8rem]"
+              className="info flex items-center gap-4 leading-[1.8rem]"
             >
               <div className="contact_svg w-fit">
                 <IoLocationOutline />
               </div>
               <div className="flex flex-col">
-                <span className="font-[sans-serif] capitalize opacity-[0.9] text-[17px]">
+                <span className="font-sans capitalize opacity-[0.9] sm:text-lg">
                   Address
                 </span>
                 <a
                   href="https://maps.app.goo.gl/p5dP5EZUx9xBP2ySA"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className=" transition-all duration-900 hover:text-[#6650F7] text-[1.2rem] font-[sans-serif] font-[600 tracking-[1px]"
+                  className="text-6 transition-all duration-900 hover:text-[#6650F7] font-sans text-xl"
                 >
                   Karachi Pakistan
                 </a>
@@ -188,6 +176,23 @@ function Contact() {
             </div>
           </div>
         </div>
+        <ToastContainer
+          position="top-right"
+          autoClose={4000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          toastStyle={{
+            background:
+              "linear-gradient(45deg, rgb(26 17 46 / 96%), rgb(111 50 157))",
+            color: "#ffffff",
+            borderRadius: "8px",
+          }}
+        />{" "}
       </Element>
     </>
   );

@@ -21,7 +21,7 @@ function CircularProgress() {
   }, []);
   return (
     <>
-      <div className="section_scroll" onClick={handleClick}>
+      <div className="container mx-auto section_scroll" onClick={handleClick}>
         {scrollPercentage < 0.1 ? (
           ""
         ) : (
@@ -36,7 +36,7 @@ function CircularProgress() {
               textColor: "#7e3aff",
               trailColor: "#2b2338",
             })}
-            className="h-[3.2rem] fixed right-20 top-[80vh] z-[1000] cursor-pointer !w-min"
+            className="h-[3.2rem] fixed right-7 top-[90vh] z-[1000] cursor-pointer !w-min xl:top-[87vh] xl:right-20"
           />
         )}
       </div>

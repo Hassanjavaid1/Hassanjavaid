@@ -1,14 +1,43 @@
 html {
-  scroll-behavior: auto;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 body {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
+  /* background: linear-gradient(104deg, #0f0715, #1e0d30, #0f0715, #0f0715); */
   color: white;
-  scroll-behavior: auto;
   overflow-x: hidden;
+}
+.hero_background {
+  background-color: #0f0715;
+  z-index: 1;
+  position: relative;
+}
+.hero_background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 322px;
+  height: 308px;
+  border-radius: 50%;
+  background: linear-gradient(260deg, #8750f7 0%, rgba(115, 67, 210, 0) 100%);
+  -webkit-filter: blur(150px);
+  filter: blur(150px);
+  margin-right: -5%;
+  margin-top: -5%;
+  z-index: -1;
+}
+.hero_pic::before {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  width: 326px;
+  height: 314px;
+  border-radius: 50%;
+  background: linear-gradient(260deg, #8750f7 0%, rgba(115, 67, 210, 0) 100%);
+  filter: blur(150px);
+  z-index: -1;
 }
 body::-webkit-scrollbar {
   background-color: #2a1454;
@@ -18,14 +47,6 @@ body::-webkit-scrollbar-thumb {
   max-width: 5px;
   background-color: #8750f7;
 }
-
-.container {
-  background: linear-gradient(104deg, #0f0715, #1e0d30, #0f0715, #0f0715);
-  width: 100%;
-  max-width: 100%;
-}
-
-
 .btn {
   background-image: linear-gradient(
     to right,
@@ -74,20 +95,21 @@ body::-webkit-scrollbar-thumb {
   transition: width 0.3s ease;
   width: 100%;
 }
+/* .gradient_text {
+  background: var(--tj-theme-primary);
+  background: linear-gradient(to right, #8750f7 0%, #ffffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
 
 .heading_title {
   background: linear-gradient(to right, #8750f7 0%, #ffffff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 3rem;
-  font-weight: bold;
+
   font-family: sans-serif;
 }
-.title_desc {
-  font-family: sans-serif;
-  margin-top: 0.4rem;
-  color: #d6d6d6;
-}
+
 .svg_icon {
   border: 1px solid #8750f7;
   border-radius: 19px;
@@ -246,9 +268,6 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-.nav_scroll .logo_img {
-  height: 6rem;
-}
 nav {
   transition: all 0.5s;
 }

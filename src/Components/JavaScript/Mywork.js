@@ -7,44 +7,52 @@ function Mywork() {
   const [filterProject, setfilterProject] = useState(projects);
   return (
     <>
-      <Element name="Portfolio" className="Works container_width">
-        <section className="works text-center paddingTB relative">
-          <h1 className="heading_title" data-aos="fade-up">
+      <Element
+        name="Portfolio"
+        className="container mx-auto px-3 py-12 relative z-0 md:py-20 lg:py-20 xl:px-28"
+      >
+        <section className="text-center">
+          <h1
+            className="heading_title text-3xl font-bold text-nowrap sm:text-5xl"
+            data-aos="fade-up"
+          >
             My Recent Works
           </h1>
-          <p className="title_desc" data-aos="fade-up">
+          <p
+            className="title_desc mt-4 text-white font-sans"
+            data-aos="fade-up"
+          >
             I put your ideas and your vision into a unique web project that{" "}
             <br /> inspires you and your customers.
           </p>
-
-          <div className="mywork_shadow"></div>
-          <div className="grid grid-cols-2 justify-center mt-[4rem] gap-[2rem]">
+          <div className="hidden mywork_shadow md:block"></div>
+          <div className="grid grid-cols-1 justify-center mx-auto mt-12 gap-6 md:grid-cols-2 md:gap-y-6 md:gap-x-0 xl:gap-y-8 xl:mt-16 2xl:gap-y-12">
             {filterProject.map(({ pro_title, pro_img, about, demo }) => (
               <div
                 key={pro_title}
-                className="mywork_parent project_demo flex items-center flex-col"
+                className="mywork_parent h-full relative flex flex-col sm:w-11/12 sm:mx-auto lg:h-full"
               >
                 <img
                   src={pro_img}
-                  className="img_demo w-[100%] h-[100%] object-cover p-[2.3rem] pb-[0rem] rounded-[15px] bg-[#140C1C]"
+                  className="min-h-72 h-full object-cover p-6 pb-0 rounded-[15px] bg-[#140C1C] sm:p-5 sm:pb-0 sm:min-h-[35rem] md:min-h-fit lg:p-8 lg:pb-0 2xl:p-10 2xl:pb-0"
                 />
                 <a
                   href={demo}
-                  className=" h-[0] w-[100%]"
+                  className=" h-[0]"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="demo_box flex items-center w-[94%] m-auto relative bottom-[9rem] gap-[3rem] p-[1rem] text-left rounded-[10px] w-[30rem] bg-gradient-to-br from-purple-600 to-[#320d4e] text-left">
-                    <div className="demo_container">
-                      <button className="pro_title text-[1.9rem] font-[sans-serif] font-bold text-ellipsis overflow-hidden whitespace-nowrap text-left">
+                  <div className="demo_box w-11/12 flex items-center m-auto absolute bottom-2 left-0 right-0 gap-3 p-2 text-left rounded-xl bg-gradient-to-br from-purple-600 to-[#320d4e] sm:p-3 xl:p-4">
+                    <div className="demo_container overflow-hidden">
+                      <button className="pro_title text-2xl font-sans font-bold whitespace-nowrap text-left sm:whitespace-normal xl:text-3xl">
                         {pro_title}
                       </button>
-                      <p className="project_desc font-[sans-serif] opacity-[0.9]">
+                      <p className="project_desc font-sans opacity-[0.9] whitespace-nowrap text-ellipsis overflow-hidden sm:whitespace-normal">
                         {about}
                       </p>
                     </div>
                     <div>
-                      <FaArrowRightLong className="mywork_child text-[1.8rem]" />
+                      <FaArrowRightLong className="mywork_child text-2xl" />
                     </div>
                   </div>
                 </a>
