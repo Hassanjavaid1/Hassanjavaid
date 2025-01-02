@@ -34,7 +34,8 @@ function Contact() {
     <>
       <Element
         name="Contact"
-        className="container mx-auto px-2 py-12 sm:w-11/12 md:py-16 lg:py-20 xl:px-28">
+        className="container mx-auto px-2 py-12 sm:w-11/12 md:py-16 lg:py-20 xl:px-28"
+      >
         <div className="flex flex-col-reverse justify-around gap-6 md:flex-row md:items-center 2xl:gap-10">
           <div
             className="contact_form bg-[#140C1C] p-4 rounded-2xl sm:p-8"
@@ -44,8 +45,9 @@ function Contact() {
               Let’s work together!
             </h1>
             <p className="title_desc mt-4 text-lg font-sans">
-              I design and code beautifully simple things and i love what i do.{" "}
-              <br /> Just simple like that!
+              I turn vision into stunning designs and seamless code.
+              <br />
+              Let’s create something extraordinary together!
             </p>
             <form
               ref={form}
@@ -99,7 +101,7 @@ function Contact() {
               </select>
               <textarea
                 cols="8"
-                rows="6"
+                rows="6" 
                 placeholder="Message"
                 className="input_field h-[185px]"
                 name="message"

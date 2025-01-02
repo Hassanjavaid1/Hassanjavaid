@@ -3,9 +3,9 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  /* background: linear-gradient(104deg, #0f0715, #1e0d30, #0f0715, #0f0715); */
   color: white;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 .hero_background {
   background-color: #0f0715;
@@ -39,6 +39,7 @@ body {
   filter: blur(150px);
   z-index: -1;
 }
+
 body::-webkit-scrollbar {
   background-color: #2a1454;
   max-width: 6px;
@@ -95,18 +96,11 @@ body::-webkit-scrollbar-thumb {
   transition: width 0.3s ease;
   width: 100%;
 }
-/* .gradient_text {
-  background: var(--tj-theme-primary);
-  background: linear-gradient(to right, #8750f7 0%, #ffffff 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
 
 .heading_title {
   background: linear-gradient(to right, #8750f7 0%, #ffffff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
   font-family: sans-serif;
 }
 
@@ -115,7 +109,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 19px;
   font-size: 1.6rem;
   padding: 14px 3rem;
-  transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 .icon {
   color: #7d4ae5;

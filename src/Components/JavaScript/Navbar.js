@@ -34,7 +34,7 @@ function Navbar() {
 
   return (
     <>
-      <Element name="Navbar" className={navScroll ? "nav_scroll" : ""}>
+      <Element className={navScroll ? "nav_scroll" : ""}>
         <nav className="container mx-auto px-6 py-4 relative lg:px-10 lg:py-6 xl:px-28 xl:py-5">
           <div className="flex items-center justify-between">
             <div className="flex items-center lg:gap-12">
@@ -43,7 +43,7 @@ function Navbar() {
                 smooth={true}
                 offset={-90}
                 duration={500}
-                to="Navbar"
+                to="About"
               >
                 <img
                   src={logo}
@@ -131,9 +131,18 @@ function Navbar() {
                 duration={500}
                 to="Contact"
               ></Link>
-              <button className="btn font-sans-serif font-bold text-nowrap rounded-full py-3 px-7 xl:px-10 xl:py-4">
-                Hire Me!
-              </button>
+              <Link
+                spy={true}
+                smooth={true}
+                offset={-150}
+                duration={500}
+                to="Contact"
+              >
+                <button className="btn font-sans-serif font-bold text-nowrap rounded-full py-3 px-7 xl:px-10 xl:py-4">
+                  Hire Me!
+                </button>
+              </Link>
+
               {!toggle ? (
                 <FaAlignRight
                   className="burger text-4xl lg:hidden"

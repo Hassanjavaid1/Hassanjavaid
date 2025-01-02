@@ -27,7 +27,7 @@ function Hero_Section() {
 
   return (
     <>
-      <Element name="About" className="About"> 
+      <Element name="About" className="About">
         <section className="container mx-auto p-8 mt-10 xl:px-28">
           <div className="flex flex-col-reverse items-center justify-around md:flex-row">
             <div className="mt-8 md:w-2/3 2xl:w-2/4" data-aos="fade-right">
@@ -38,11 +38,11 @@ function Hero_Section() {
                 FrontEnd React + <br /> NodeJS Developer
               </h1>
 
-              <p className="hero_intro text-[1.4rem] font-sans-serif text-[#D6D6D7] mt-[1.3rem]">
+              <p className="hero_intro text-[1.4rem] font-sans-serif text-[#D6D6D7] mt-5">
                 I break down complex user experience problems to create
-                integritiy focussed solutions that connect people.
+                integrity focused solutions that connect people.
               </p>
-              <div className="resume_social flex items-center gap-[2.3rem] space-y-[23] mt-[2rem]">
+              <div className="resume_social flex items-center gap-9 space-y-[23] mt-8">
                 <div className="flex items-center gap-[1.1rem] z-40">
                   <a
                     href="https://www.linkedin.com/in/hassan-javaid-aa7610290/"
@@ -71,31 +71,31 @@ function Hero_Section() {
               <img
                 src={hassan}
                 alt=""
-                className=" object-cover rounded-[0.8rem] border-[2px] border-[#9c6cff5e] hover:border-[#7f4ae7] transform rotate-2 hover:rotate-0"
+                className="object-cover rounded-[30px] border-2 border-[#9c6cff5e] transition-all hover:border-[#7f4ae7] transform rotate-2 hover:rotate-0"
               />
             </div>
           </div>
           <div
             ref={targetRef}
-            className="hero_counter flex items-center flex-wrap gap-8 mt-5rem pb-[2rem] mt-[5rem] md:justify-around"
+            className="hero_counter flex items-center flex-wrap gap-8 mt-5rem pb-8 mt-20 md:justify-around"
           >
             {isIntersecting && (
               <>
                 <h4 className="about_hero text-[#DDDDDD] font-400 text-7xl flex items-center justify-center font-sans-serif gap-2 sm:font-semibold">
                   <CountUp end={2} />
-                  <span className="counter_text text-[1rem] font-sans-serif opacity-[0.9] ">
+                  <span className="counter_text text-[1rem] font-sans-serif opacity-90 ">
                     Years of <br /> Experience
                   </span>
                 </h4>
                 <h4 className="about_hero  text-[#DDDDDD] font-400 text-7xl flex items-center justify-center font-sans-serif gap-2 sm:font-semibold">
                   <CountUp end={parseFloat(9)} />+
-                  <span className="counter_text text-[1rem] font-sans-serif opacity-[0.9] ">
+                  <span className="counter_text text-[1rem] font-sans-serif opacity-90 ">
                     Projects <br /> Completed
                   </span>
                 </h4>
                 <h4 className="about_hero text-[#DDDDDD] font-400 text-7xl flex items-center justify-center font-sans-serif gap-2 sm:font-semibold">
                   <CountUp end={1} />{" "}
-                  <span className="counter_text text-[1rem] font-sans-serif opacity-[0.9] ">
+                  <span className="counter_text text-[1rem] font-sans-serif opacity-90">
                     Internship <br />
                     Completed
                   </span>

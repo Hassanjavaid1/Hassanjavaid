@@ -16,7 +16,8 @@ import bootstrap from "../Photos/Projects_imgs/bootstrap.png";
 import iflix_img from "../Photos/Projects_imgs/iflix.jpg";
 import e_commerce_img from "../Photos/Projects_imgs/ecommerce.jpg";
 import stockOrbit from "../Photos/Projects_imgs/stockOrbit.jpeg";
-import timecare from '../Photos/Projects_imgs/timecare.webp'
+import timecare from "../Photos/Projects_imgs/timecare.webp";
+
 //Projects Section!...
 
 const projects = [
@@ -30,21 +31,23 @@ const projects = [
   {
     pro_title: "Time Care",
     pro_img: timecare,
-    about:"Time Care tracks attendance, manages holidays, and offers workforce insights.",
+    about:
+      "Time Care tracks attendance, manages holidays, and offers workforce insights.",
     demo: "https://cbspakistan.com/timecare-portfolio.html",
   },
   {
     pro_title: "iFlix Movies",
     pro_img: iflix_img,
     about:
-      "iFlix is a cutting-edge movie information platform that provides an immersive experience for movie enthusiasts.",
-    demo: "https://hassanjavaid1.github.io/reactmovieapp/",
+      "iFlix is a site for movie lovers, giving a fun and easy movie experience.",
+    demo: "https://hassanjavaid1.github.io/reactmovieapp",
   },
   {
     pro_title: "Big-Commerce Web App",
     pro_img: e_commerce_img,
-    about: "BigCommerce is a personal e-commerce project featuring user authentication, customizable storefronts etc.",
-    demo: "https://hassanjavaid1.github.io/React_BIGCOMMERCE/",
+    about:
+      "BigCommerce is a personal e-commerce site with user login and custom storefronts.",
+    demo: "https://hassanjavaid1.github.io/React_BIGCOMMERCE",
   },
 ];
 
@@ -96,4 +99,5 @@ const mySkills = [
     name: "MSQL",
   },
 ];
+
 export { projects, mySkills };

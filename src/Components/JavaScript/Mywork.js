@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { projects } from "./CustomApi";
 import { Element } from "react-scroll";
@@ -22,8 +22,8 @@ function Mywork() {
             className="title_desc mt-4 text-white font-sans"
             data-aos="fade-up"
           >
-            I put your ideas and your vision into a unique web project that{" "}
-            <br /> inspires you and your customers.
+            I bring your ideas and vision to life through a distinctive web project that inspires{" "}
+            <br /> both you and your customers.
           </p>
           <div className="hidden mywork_shadow md:block"></div>
           <div className="grid grid-cols-1 justify-center mx-auto mt-12 gap-6 md:grid-cols-2 md:gap-y-6 md:gap-x-0 xl:gap-y-8 xl:mt-16 2xl:gap-y-12">
@@ -33,7 +33,7 @@ function Mywork() {
                 className="mywork_parent h-full relative flex flex-col sm:w-11/12 sm:mx-auto lg:h-full"
               >
                 <img
-                  src={pro_img}
+                  src={pro_img} alt=""
                   className="min-h-72 h-full object-cover p-6 pb-0 rounded-[15px] bg-[#140C1C] sm:p-5 sm:pb-0 sm:min-h-[35rem] md:min-h-fit lg:p-8 lg:pb-0 2xl:p-10 2xl:pb-0"
                 />
                 <a
