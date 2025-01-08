@@ -12,63 +12,63 @@ function Footer() {
           className="footer_img w-[80px] h-[55px]"
           alt=""
         />
-          <ul className="footer_ul flex items-center justify-center gap-6 flex-wrap font-sans font-semibold mt-6">
-            <li>
-              <Link
-                className="nav_link"
-                spy={true}
-                smooth={true}
-                offset={-90}
-                duration={500}
-                activeClass="nav_active"
-                to="About"
-              >
-                About
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="nav_link"
-                activeClass="nav_active"
-                spy={true}
-                smooth={true}
-                offset={-50}
-                duration={500}
-                to="Portfolio"
-              >
-                Portfolio
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="nav_link"
-                activeClass="nav_active"
-                spy={true}
-                smooth={true}
-                offset={-110}
-                duration={500}
-                to="Skills"
-              >
-                Skills
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="nav_link"
-                activeClass="nav_active"
-                spy={true}
-                smooth={true}
-                offset={-150}
-                duration={500}
-                to="Contact"
-              >
-                Contact
-              </Link>
-            </li>
-          </ul>
+        <ul className="footer_ul flex items-center justify-center gap-6 flex-wrap font-sans font-semibold mt-6">
+          <li>
+            <Link
+              className="nav_link"
+              spy={true}
+              smooth={true}
+              offset={-90}
+              duration={500}
+              activeClass="nav_active"
+              to="About"
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="nav_link"
+              activeClass="nav_active"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+              to="Portfolio"
+            >
+              Portfolio
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="nav_link"
+              activeClass="nav_active"
+              spy={true}
+              smooth={true}
+              offset={-110}
+              duration={500}
+              to="Skills"
+            >
+              Skills
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="nav_link"
+              activeClass="nav_active"
+              spy={true}
+              smooth={true}
+              offset={-150}
+              duration={500}
+              to="Contact"
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
         <h3 className="footer_copyright flex items-center flex-col mt-4 text-[#7957d1eb] font-sans text-lg sm:block">
           &copy; {currentYear} All rights reserved by {""}
-          <span className="font-12 text-white font-500">Hassanjavaid</span>
+          <span className="font-12 text-white font-500">Hassanjavaid!</span>
         </h3>
       </div>
     </>

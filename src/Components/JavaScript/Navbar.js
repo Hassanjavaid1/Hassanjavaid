@@ -52,7 +52,7 @@ function Navbar() {
                 />
               </Link>
               <a
-                href="mailto:hassanjavaid159@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=hassanjavaid159@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hidden email font[600] font-sans-serif ml-[-1.8rem] transition-all duration-500 hover:text-[#7c4be6] lg:block 2xl:font-semibold"
@@ -61,9 +61,8 @@ function Navbar() {
               </a>
             </div>
             <ul
-              className={`${
-                toggle ? "flex" : "hidden"
-              } flex-col items-center justify-center gap-8 absolute left-0 right-0 top-20 z-50  h-screen bg-[#2a1454] text-4xl font-sans-serif font-[600] lg:flex lg:flex-row lg:static lg:bg-transparent lg:text-lg lg:h-auto`}
+              className={`${toggle ? "flex" : "hidden"
+                } flex-col items-center justify-center gap-8 absolute left-0 right-0 top-20 z-50  h-screen bg-[#2a1454] text-4xl font-sans-serif font-[600] lg:flex lg:flex-row lg:static lg:bg-transparent lg:text-lg lg:h-auto`}
             >
               <li>
                 <Link
