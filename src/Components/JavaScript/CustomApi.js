@@ -47,7 +47,7 @@ const projects = [
     pro_img: e_commerce_img,
     about:
       "BigCommerce is a personal e-commerce site with user login and custom storefronts.",
-    demo: "https://hassanjavaid1.github.io/React_BIGCOMMERCE",
+    demo: "https://hassanjavaid1.github.io/BIGCOMMERCE",
   },
 ];
 
