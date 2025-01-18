@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Hassanjavaid/static/css/main.09b96ec1.css",
-    "main.js": "/Hassanjavaid/static/js/main.aa5d4965.js",
+    "main.js": "/Hassanjavaid/static/js/main.1a0a8a72.js",
     "static/js/863.fae2ae18.chunk.js": "/Hassanjavaid/static/js/863.fae2ae18.chunk.js",
     "static/js/267.e633c3bb.chunk.js": "/Hassanjavaid/static/js/267.e633c3bb.chunk.js",
     "static/js/222.fc35924f.chunk.js": "/Hassanjavaid/static/js/222.fc35924f.chunk.js",
@@ -15,7 +15,7 @@
     "static/js/184.d2881fd7.chunk.js": "/Hassanjavaid/static/js/184.d2881fd7.chunk.js",
     "static/js/757.258fcf96.chunk.js": "/Hassanjavaid/static/js/757.258fcf96.chunk.js",
     "static/js/21.3d4c8f67.chunk.js": "/Hassanjavaid/static/js/21.3d4c8f67.chunk.js",
-    "static/js/151.c1a490dd.chunk.js": "/Hassanjavaid/static/js/151.c1a490dd.chunk.js",
+    "static/js/151.1e230fd4.chunk.js": "/Hassanjavaid/static/js/151.1e230fd4.chunk.js",
     "static/media/stockOrbit.jpeg": "/Hassanjavaid/static/media/stockOrbit.1febb11028f1fa641f8d.jpeg",
     "static/media/my_pic.png": "/Hassanjavaid/static/media/my_pic.51f698a85fc079fe5a25.png",
     "static/media/iflix.webp": "/Hassanjavaid/static/media/iflix.8609a850da45026fba60.webp",
@@ -35,7 +35,7 @@
     "static/media/html.svg": "/Hassanjavaid/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/npm.svg": "/Hassanjavaid/static/media/npm.d8917a420fc3657bf21283394459f6ec.svg",
     "main.09b96ec1.css.map": "/Hassanjavaid/static/css/main.09b96ec1.css.map",
-    "main.aa5d4965.js.map": "/Hassanjavaid/static/js/main.aa5d4965.js.map",
+    "main.1a0a8a72.js.map": "/Hassanjavaid/static/js/main.1a0a8a72.js.map",
     "863.fae2ae18.chunk.js.map": "/Hassanjavaid/static/js/863.fae2ae18.chunk.js.map",
     "267.e633c3bb.chunk.js.map": "/Hassanjavaid/static/js/267.e633c3bb.chunk.js.map",
     "222.fc35924f.chunk.js.map": "/Hassanjavaid/static/js/222.fc35924f.chunk.js.map",
@@ -49,10 +49,10 @@
     "184.d2881fd7.chunk.js.map": "/Hassanjavaid/static/js/184.d2881fd7.chunk.js.map",
     "757.258fcf96.chunk.js.map": "/Hassanjavaid/static/js/757.258fcf96.chunk.js.map",
     "21.3d4c8f67.chunk.js.map": "/Hassanjavaid/static/js/21.3d4c8f67.chunk.js.map",
-    "151.c1a490dd.chunk.js.map": "/Hassanjavaid/static/js/151.c1a490dd.chunk.js.map"
+    "151.1e230fd4.chunk.js.map": "/Hassanjavaid/static/js/151.1e230fd4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09b96ec1.css",
-    "static/js/main.aa5d4965.js"
+    "static/js/main.1a0a8a72.js"
   ]
 }
