@@ -24,7 +24,7 @@ function MySkills() {
           >
             {mySkills.map(({ tech_img, name }) => (
               <div key={name} className="w-fit">
-                <div className="group w-fit h-40 bg-[#37214d] p-10 px-14 rounded-3xl transition-colors hover:bg-[#2A1454] hover:grayscale-0 hover:border hover:border-[#8750f7]">
+                <div className="flex items-center justify-center overflow-hidden group w-fit h-40 bg-[#37214d] py-12 px-14 rounded-3xl transition-colors hover:bg-[#2A1454] hover:grayscale-0 hover:border hover:border-[#8750f7]">
                   <img
                     src={tech_img}
                     className=" w-[4rem] object-cover grayscale-[1] duration-[.3s] group-hover:scale-[1.1] group-hover:grayscale-[0]"
