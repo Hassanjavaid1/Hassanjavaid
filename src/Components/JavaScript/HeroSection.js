@@ -4,6 +4,7 @@ import { FaGithub } from "react-icons/fa6";
 import hassan from "../Photos/my_pic.png";
 import CountUp from "react-countup";
 import { Element } from "react-scroll";
+import Aos from "aos";
 
 function Hero_Section() {
   const [isIntersecting, setIsIntersecting] = useState(false);
@@ -27,8 +28,11 @@ function Hero_Section() {
 
   return (
     <>
-      <Element name="About" className="About">
-        <section className="container mx-auto p-8 mt-10 xl:px-28">
+      <Element name="About" className="About" >
+        <section
+          className="container mx-auto p-8 mt-10 xl:px-28"
+          
+        >
           <div className="flex flex-col-reverse items-center justify-around md:flex-row">
             <div className="mt-8 md:w-2/3 2xl:w-2/4" data-aos="fade-right">
               <h3 className="mb-3 font-bold text-3xl font-sans-serif text-[#DDDDDD] sm:text-4xl md:text-3xl lg:text-4xl 2xl:text-5xl">
