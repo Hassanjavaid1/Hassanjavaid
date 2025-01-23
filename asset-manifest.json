@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Hassanjavaid/static/css/main.dcd36249.css",
-    "main.js": "/Hassanjavaid/static/js/main.5d6e3891.js",
+    "main.js": "/Hassanjavaid/static/js/main.ec62bb5e.js",
     "static/js/863.fae2ae18.chunk.js": "/Hassanjavaid/static/js/863.fae2ae18.chunk.js",
     "static/js/267.483efe21.chunk.js": "/Hassanjavaid/static/js/267.483efe21.chunk.js",
-    "static/js/222.d5047a30.chunk.js": "/Hassanjavaid/static/js/222.d5047a30.chunk.js",
-    "static/js/477.1df23042.chunk.js": "/Hassanjavaid/static/js/477.1df23042.chunk.js",
+    "static/js/222.cd64525e.chunk.js": "/Hassanjavaid/static/js/222.cd64525e.chunk.js",
+    "static/js/477.1f14875c.chunk.js": "/Hassanjavaid/static/js/477.1f14875c.chunk.js",
     "static/css/497.a62761cc.chunk.css": "/Hassanjavaid/static/css/497.a62761cc.chunk.css",
     "static/js/497.f5331d8f.chunk.js": "/Hassanjavaid/static/js/497.f5331d8f.chunk.js",
     "static/js/258.041fcece.chunk.js": "/Hassanjavaid/static/js/258.041fcece.chunk.js",
@@ -15,12 +15,12 @@
     "static/js/184.d2881fd7.chunk.js": "/Hassanjavaid/static/js/184.d2881fd7.chunk.js",
     "static/js/757.258fcf96.chunk.js": "/Hassanjavaid/static/js/757.258fcf96.chunk.js",
     "static/js/21.3d4c8f67.chunk.js": "/Hassanjavaid/static/js/21.3d4c8f67.chunk.js",
-    "static/js/151.1e230fd4.chunk.js": "/Hassanjavaid/static/js/151.1e230fd4.chunk.js",
+    "static/js/313.da7d0315.chunk.js": "/Hassanjavaid/static/js/313.da7d0315.chunk.js",
     "static/media/stockOrbit.jpeg": "/Hassanjavaid/static/media/stockOrbit.1febb11028f1fa641f8d.jpeg",
     "static/media/my_pic.png": "/Hassanjavaid/static/media/my_pic.51f698a85fc079fe5a25.png",
     "static/media/iflix.webp": "/Hassanjavaid/static/media/iflix.8609a850da45026fba60.webp",
     "static/media/timecare.webp": "/Hassanjavaid/static/media/timecare.9874e3bddcb281ed6dd3.webp",
-    "static/media/ecommerce.webp": "/Hassanjavaid/static/media/ecommerce.93dbd03ea3a716b6804a.webp",
+    "static/media/sadequain.webp": "/Hassanjavaid/static/media/sadequain.0fe10add4447e09c6c21.webp",
     "static/media/msql.png": "/Hassanjavaid/static/media/msql.3540c241af1d9b798bb9.png",
     "static/media/bootstrap.png": "/Hassanjavaid/static/media/bootstrap.d5210cdeab1bc94309c4.png",
     "static/media/preloader.gif": "/Hassanjavaid/static/media/preloader.17b58f681ba106f8b1be.gif",
@@ -35,11 +35,11 @@
     "static/media/html.svg": "/Hassanjavaid/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/npm.svg": "/Hassanjavaid/static/media/npm.d8917a420fc3657bf21283394459f6ec.svg",
     "main.dcd36249.css.map": "/Hassanjavaid/static/css/main.dcd36249.css.map",
-    "main.5d6e3891.js.map": "/Hassanjavaid/static/js/main.5d6e3891.js.map",
+    "main.ec62bb5e.js.map": "/Hassanjavaid/static/js/main.ec62bb5e.js.map",
     "863.fae2ae18.chunk.js.map": "/Hassanjavaid/static/js/863.fae2ae18.chunk.js.map",
     "267.483efe21.chunk.js.map": "/Hassanjavaid/static/js/267.483efe21.chunk.js.map",
-    "222.d5047a30.chunk.js.map": "/Hassanjavaid/static/js/222.d5047a30.chunk.js.map",
-    "477.1df23042.chunk.js.map": "/Hassanjavaid/static/js/477.1df23042.chunk.js.map",
+    "222.cd64525e.chunk.js.map": "/Hassanjavaid/static/js/222.cd64525e.chunk.js.map",
+    "477.1f14875c.chunk.js.map": "/Hassanjavaid/static/js/477.1f14875c.chunk.js.map",
     "497.a62761cc.chunk.css.map": "/Hassanjavaid/static/css/497.a62761cc.chunk.css.map",
     "497.f5331d8f.chunk.js.map": "/Hassanjavaid/static/js/497.f5331d8f.chunk.js.map",
     "258.041fcece.chunk.js.map": "/Hassanjavaid/static/js/258.041fcece.chunk.js.map",
@@ -49,10 +49,10 @@
     "184.d2881fd7.chunk.js.map": "/Hassanjavaid/static/js/184.d2881fd7.chunk.js.map",
     "757.258fcf96.chunk.js.map": "/Hassanjavaid/static/js/757.258fcf96.chunk.js.map",
     "21.3d4c8f67.chunk.js.map": "/Hassanjavaid/static/js/21.3d4c8f67.chunk.js.map",
-    "151.1e230fd4.chunk.js.map": "/Hassanjavaid/static/js/151.1e230fd4.chunk.js.map"
+    "313.da7d0315.chunk.js.map": "/Hassanjavaid/static/js/313.da7d0315.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dcd36249.css",
-    "static/js/main.5d6e3891.js"
+    "static/js/main.ec62bb5e.js"
   ]
 }
