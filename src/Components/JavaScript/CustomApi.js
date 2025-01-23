@@ -14,7 +14,7 @@ import bootstrap from "../Photos/Projects_imgs/bootstrap.png";
 //Projects images.
 
 import iflix_img from "../Photos/Projects_imgs/iflix.webp";
-import e_commerce_img from "../Photos/Projects_imgs/ecommerce.webp";
+import sadequain from "../Photos/Projects_imgs/sadequain.webp";
 import stockOrbit from "../Photos/Projects_imgs/stockOrbit.jpeg";
 import timecare from "../Photos/Projects_imgs/timecare.webp";
 
@@ -36,18 +36,18 @@ const projects = [
     demo: "https://cbspakistan.com/timecare-portfolio.html",
   },
   {
+    pro_title: "SFS Educational Website",
+    pro_img: sadequain,
+    about:
+      "Sadequain Foundation School offers quality education, fostering growth and shaping young minds for future success.",
+    demo: "https://sadequainfs.com",
+  },
+  {
     pro_title: "iFlix Movies",
     pro_img: iflix_img,
     about:
       "iFlix is a site for movie lovers, giving a fun and easy movie experience.",
     demo: "https://hassanjavaid1.github.io/reactmovieapp",
-  },
-  {
-    pro_title: "BIGCommerce App",
-    pro_img: e_commerce_img,
-    about:
-      "BigCommerce is a personal e-commerce site with user login and custom storefronts.",
-    demo: "https://hassanjavaid1.github.io/BIGCOMMERCE",
   },
 ];
 
