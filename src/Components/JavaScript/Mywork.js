@@ -1,10 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { projects } from "./CustomApi";
 import { Element } from "react-scroll";
 
 function Mywork() {
   const [filterProject, setfilterProject] = useState(projects);
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleWidth = () => setScreenWidth(window.innerWidth);
+
+    window.addEventListener("resize", handleWidth);
+    return () => window.removeEventListener("resize", handleWidth);
+  }, []);
   return (
     <>
       <Element
@@ -30,12 +38,12 @@ function Mywork() {
             {filterProject.map(({ pro_title, pro_img, about, demo }) => (
               <div
                 key={pro_title}
-                className="mywork_parent h-full relative flex flex-col sm:w-11/12 sm:mx-auto lg:h-full"
+                className="min-h-[25rem] mywork_parent h-full relative flex flex-col sm:w-11/12 sm:mx-auto lg:h-full"
               >
                 <img
                   src={pro_img}
                   alt=""
-                  className="min-h-72 h-full object-cover p-6 pb-0 rounded-[15px] bg-[#140C1C] sm:p-5 sm:pb-0 sm:min-h-[35rem] md:min-h-fit lg:p-8 lg:pb-0 2xl:p-10 2xl:pb-0"
+                  className="h-full object-cover p-6 pb-0 rounded-[15px] bg-[#140C1C] sm:p-5 sm:pb-0 sm:min-h-[35rem] md:min-h-fit lg:p-8 lg:pb-0 2xl:p-10 2xl:pb-0"
                 />
                 <a
                   href={demo}
@@ -48,8 +56,10 @@ function Mywork() {
                       <button className="pro_title text-2xl font-sans font-bold whitespace-nowrap text-left sm:whitespace-normal xl:text-3xl">
                         {pro_title}
                       </button>
-                      <p className="project_desc font-sans opacity-[0.9] whitespace-nowrap text-ellipsis overflow-hidden sm:whitespace-normal">
-                        {about}
+                      <p className="project_desc font-sans opacity-[0.9] sm:whitespace-normal">
+                        {screenWidth < 600
+                          ? about.slice(0, 80) + "..."
+                          : about.slice(0)}
                       </p>
                     </div>
                     <div>

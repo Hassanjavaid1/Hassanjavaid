@@ -22,20 +22,6 @@ import timecare from "../Photos/Projects_imgs/timecare.webp";
 
 const projects = [
   {
-    pro_title: "Stock Orbit",
-    pro_img: stockOrbit,
-    about:
-      "Mobie app for real-time inventory management and inventory tracking, retail and warehouse users.",
-    demo: "https://cbspakistan.com/stock-orbit-portfolio.html",
-  },
-  {
-    pro_title: "Time Care",
-    pro_img: timecare,
-    about:
-      "Time Care tracks attendance, manages holidays, and offers workforce insights.",
-    demo: "https://cbspakistan.com/timecare-portfolio.html",
-  },
-  {
     pro_title: "SFS Educational Website",
     pro_img: sadequain,
     about:
@@ -48,6 +34,20 @@ const projects = [
     about:
       "iFlix is a site for movie lovers, giving a fun and easy movie experience.",
     demo: "https://hassanjavaid1.github.io/reactmovieapp",
+  },
+  {
+    pro_title: "Stock Orbit",
+    pro_img: stockOrbit,
+    about:
+      "Mobie app for real-time inventory management and inventory tracking, retail and warehouse users.",
+    demo: "https://cbspakistan.com/stock-orbit-portfolio.html",
+  },
+  {
+    pro_title: "Time Care",
+    pro_img: timecare,
+    about:
+      "Time Care tracks attendance, manages holidays, and offers workforce insights.",
+    demo: "https://cbspakistan.com/timecare-portfolio.html",
   },
 ];
 
