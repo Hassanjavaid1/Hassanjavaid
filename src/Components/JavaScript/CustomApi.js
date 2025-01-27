@@ -33,7 +33,7 @@ const projects = [
     pro_img: iflix_img,
     about:
       "iFlix is a site for movie lovers, giving a fun and easy movie experience.",
-    demo: "https://hassanjavaid1.github.io/reactmovieapp",
+    demo: "https://hassanjavaid1.github.io/iFlix",
   },
   {
     pro_title: "Stock Orbit",
