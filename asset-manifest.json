@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Hassanjavaid/static/css/main.44aa158a.css",
-    "main.js": "/Hassanjavaid/static/js/main.c47258e1.js",
+    "main.css": "/Hassanjavaid/static/css/main.861e2db5.css",
+    "main.js": "/Hassanjavaid/static/js/main.51795b1b.js",
     "static/js/863.fae2ae18.chunk.js": "/Hassanjavaid/static/js/863.fae2ae18.chunk.js",
     "static/js/267.483efe21.chunk.js": "/Hassanjavaid/static/js/267.483efe21.chunk.js",
-    "static/js/222.e31f1223.chunk.js": "/Hassanjavaid/static/js/222.e31f1223.chunk.js",
-    "static/js/477.1f14875c.chunk.js": "/Hassanjavaid/static/js/477.1f14875c.chunk.js",
+    "static/js/222.88efe942.chunk.js": "/Hassanjavaid/static/js/222.88efe942.chunk.js",
+    "static/js/477.54ab3cc1.chunk.js": "/Hassanjavaid/static/js/477.54ab3cc1.chunk.js",
     "static/css/497.a62761cc.chunk.css": "/Hassanjavaid/static/css/497.a62761cc.chunk.css",
-    "static/js/497.f5331d8f.chunk.js": "/Hassanjavaid/static/js/497.f5331d8f.chunk.js",
+    "static/js/497.1cfe95fe.chunk.js": "/Hassanjavaid/static/js/497.1cfe95fe.chunk.js",
     "static/js/258.041fcece.chunk.js": "/Hassanjavaid/static/js/258.041fcece.chunk.js",
     "static/js/453.2ddb282f.chunk.js": "/Hassanjavaid/static/js/453.2ddb282f.chunk.js",
     "static/js/473.3ce6c068.chunk.js": "/Hassanjavaid/static/js/473.3ce6c068.chunk.js",
@@ -15,7 +15,7 @@
     "static/js/184.d2881fd7.chunk.js": "/Hassanjavaid/static/js/184.d2881fd7.chunk.js",
     "static/js/757.258fcf96.chunk.js": "/Hassanjavaid/static/js/757.258fcf96.chunk.js",
     "static/js/21.3d4c8f67.chunk.js": "/Hassanjavaid/static/js/21.3d4c8f67.chunk.js",
-    "static/js/313.c5daebf5.chunk.js": "/Hassanjavaid/static/js/313.c5daebf5.chunk.js",
+    "static/js/313.bc2edfc2.chunk.js": "/Hassanjavaid/static/js/313.bc2edfc2.chunk.js",
     "static/media/stockOrbit.jpeg": "/Hassanjavaid/static/media/stockOrbit.1febb11028f1fa641f8d.jpeg",
     "static/media/my_pic.png": "/Hassanjavaid/static/media/my_pic.51f698a85fc079fe5a25.png",
     "static/media/iflix.webp": "/Hassanjavaid/static/media/iflix.8609a850da45026fba60.webp",
@@ -34,14 +34,14 @@
     "static/media/css.svg": "/Hassanjavaid/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/html.svg": "/Hassanjavaid/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/npm.svg": "/Hassanjavaid/static/media/npm.d8917a420fc3657bf21283394459f6ec.svg",
-    "main.44aa158a.css.map": "/Hassanjavaid/static/css/main.44aa158a.css.map",
-    "main.c47258e1.js.map": "/Hassanjavaid/static/js/main.c47258e1.js.map",
+    "main.861e2db5.css.map": "/Hassanjavaid/static/css/main.861e2db5.css.map",
+    "main.51795b1b.js.map": "/Hassanjavaid/static/js/main.51795b1b.js.map",
     "863.fae2ae18.chunk.js.map": "/Hassanjavaid/static/js/863.fae2ae18.chunk.js.map",
     "267.483efe21.chunk.js.map": "/Hassanjavaid/static/js/267.483efe21.chunk.js.map",
-    "222.e31f1223.chunk.js.map": "/Hassanjavaid/static/js/222.e31f1223.chunk.js.map",
-    "477.1f14875c.chunk.js.map": "/Hassanjavaid/static/js/477.1f14875c.chunk.js.map",
+    "222.88efe942.chunk.js.map": "/Hassanjavaid/static/js/222.88efe942.chunk.js.map",
+    "477.54ab3cc1.chunk.js.map": "/Hassanjavaid/static/js/477.54ab3cc1.chunk.js.map",
     "497.a62761cc.chunk.css.map": "/Hassanjavaid/static/css/497.a62761cc.chunk.css.map",
-    "497.f5331d8f.chunk.js.map": "/Hassanjavaid/static/js/497.f5331d8f.chunk.js.map",
+    "497.1cfe95fe.chunk.js.map": "/Hassanjavaid/static/js/497.1cfe95fe.chunk.js.map",
     "258.041fcece.chunk.js.map": "/Hassanjavaid/static/js/258.041fcece.chunk.js.map",
     "453.2ddb282f.chunk.js.map": "/Hassanjavaid/static/js/453.2ddb282f.chunk.js.map",
     "473.3ce6c068.chunk.js.map": "/Hassanjavaid/static/js/473.3ce6c068.chunk.js.map",
@@ -49,10 +49,10 @@
     "184.d2881fd7.chunk.js.map": "/Hassanjavaid/static/js/184.d2881fd7.chunk.js.map",
     "757.258fcf96.chunk.js.map": "/Hassanjavaid/static/js/757.258fcf96.chunk.js.map",
     "21.3d4c8f67.chunk.js.map": "/Hassanjavaid/static/js/21.3d4c8f67.chunk.js.map",
-    "313.c5daebf5.chunk.js.map": "/Hassanjavaid/static/js/313.c5daebf5.chunk.js.map"
+    "313.bc2edfc2.chunk.js.map": "/Hassanjavaid/static/js/313.bc2edfc2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44aa158a.css",
-    "static/js/main.c47258e1.js"
+    "static/css/main.861e2db5.css",
+    "static/js/main.51795b1b.js"
   ]
 }
