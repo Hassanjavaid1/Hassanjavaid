@@ -21,7 +21,7 @@ function Mywork() {
       >
         <section className="text-center">
           <h1
-            className="heading_title text-3xl font-bold text-nowrap sm:text-5xl"
+            className="heading_title text-3xl font-bold text-nowrap !leading-normal sm:text-5xl"
             data-aos="fade-up"
           >
             My Recent Works

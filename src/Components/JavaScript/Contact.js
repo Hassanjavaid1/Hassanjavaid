@@ -41,7 +41,7 @@ function Contact() {
             className="contact_form bg-[#140C1C] p-4 rounded-2xl sm:p-8"
             data-aos="fade-up"
           >
-            <h1 className="heading_title text-4xl font-bold leading-normal sm:text-5xl">
+            <h1 className="heading_title text-4xl font-bold !leading-normal sm:text-5xl">
               Let’s work together!
             </h1>
             <p className="title_desc mt-4 text-lg font-sans">

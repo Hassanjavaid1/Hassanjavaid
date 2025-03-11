@@ -55,48 +55,55 @@ const projects = [
 
 const mySkills = [
   {
-    tech_img: html_svg,
-    name: "HTML",
-  },
-  {
-    tech_img: css_svg,
-    name: "CSS",
-  },
-  {
-    tech_img: tailwind_svg,
-    name: "Tailwind CSS",
-  },
-  {
-    tech_img: bootstrap,
-    name: "Bootstrap",
-  },
-  {
-    tech_img: javascript_svg,
+    tech_img: "devicon-javascript-plain colored",
     name: "JavaScript",
   },
   {
-    tech_img: reactjs_svg,
+    tech_img: "devicon-react-original colored",
     name: "ReactJS",
   },
   {
-    tech_img: npm_svg,
+    tech_img: "devicon-nextjs-plain colored",
+
+    name: "NextJS",
+  },
+  {
+    tech_img: "devicon-tailwindcss-original colored",
+    name: "Tailwind CSS",
+  },
+  {
+    tech_img: "devicon-html5-plain colored",
+    name: "HTML",
+  },
+  {
+    tech_img: "devicon-css3-plain colored",
+    name: "CSS",
+  },
+  {
+    tech_img: "devicon-bootstrap-plain colored",
+    name: "Bootstrap",
+  },
+
+  {
+    tech_img: "devicon-npm-original-wordmark colored",
     name: "NPM",
   },
   {
-    tech_img: git_svg,
-    name: "Git",
-  },
-  {
-    tech_img: github_svg,
-    name: "Github",
-  },
-  {
-    tech_img: nodejs,
+    tech_img: "devicon-nodejs-plain colored",
     name: "NodeJS",
   },
   {
-    tech_img: mysql,
-    name: "MSQL",
+    tech_img: "devicon-mysql-original colored",
+    name: "MYSQL",
+  },
+  {
+    tech_img: "devicon-git-plain colored",
+    name: "Git",
+  },
+  {
+    tech_img: "devicon-postman-plain colored",
+
+    name: "Postman",
   },
 ];
 
