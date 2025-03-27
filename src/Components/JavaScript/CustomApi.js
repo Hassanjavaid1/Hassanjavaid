@@ -1,19 +1,7 @@
-// myskills svgs
-import html_svg from "../Photos/Projects_imgs/html.svg";
-import css_svg from "../Photos/Projects_imgs/css.svg";
-import tailwind_svg from "../Photos/Projects_imgs/tailwindcss.svg";
-import javascript_svg from "../Photos/Projects_imgs/js.svg";
-import reactjs_svg from "../Photos/Projects_imgs/reactjs.svg";
-import npm_svg from "../Photos/Projects_imgs/npm.svg";
-import git_svg from "../Photos/Projects_imgs/git.svg";
-import github_svg from "../Photos/Projects_imgs/github.svg";
-import nodejs from "../Photos/Projects_imgs/nodejs.webp";
-import mysql from "../Photos/Projects_imgs/msql.png";
-import bootstrap from "../Photos/Projects_imgs/bootstrap.png";
-
 //Projects images.
 
 import iflix_img from "../Photos/Projects_imgs/iflix.webp";
+import vibe from "../Photos/Projects_imgs/Vibe.jpg";
 import sadequain from "../Photos/Projects_imgs/sadequain.webp";
 import stockOrbit from "../Photos/Projects_imgs/stockOrbit.jpeg";
 import timecare from "../Photos/Projects_imgs/timecare.webp";
@@ -27,6 +15,13 @@ const projects = [
     about:
       "Sadequain Foundation School offers quality education, fostering growth and shaping young minds for future success.",
     demo: "https://sadequainfs.com",
+  },
+  {
+    pro_title: "Vibe",
+    pro_img: vibe,
+    about:
+      "A Full-stack PWA music listening application using NextJS, MySQL, and Cloudinary.",
+    demo: "https://vibe-next.vercel.app",
   },
   {
     pro_title: "iFlix Movies",

@@ -43,7 +43,7 @@ function Mywork() {
                 <img
                   src={pro_img}
                   alt=""
-                  className="h-full object-cover p-6 pb-0 rounded-[15px] bg-[#140C1C] sm:p-5 sm:pb-0 sm:min-h-[35rem] md:min-h-fit lg:p-8 lg:pb-0 2xl:p-10 2xl:pb-0"
+                  className="h-full  object-cover p-6 pb-0 rounded-[15px] bg-[#140C1C] sm:p-5 sm:pb-0 sm:min-h-[35rem] md:min-h-fit lg:p-8 lg:pb-0 2xl:p-10 2xl:pb-0 xl:min-h-[30rem] lg:max-h-[30rem]"
                 />
                 <a
                   href={demo}
