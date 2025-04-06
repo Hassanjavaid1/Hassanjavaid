@@ -5,6 +5,7 @@ import vibe from "../Photos/Projects_imgs/Vibe.jpg";
 import sadequain from "../Photos/Projects_imgs/sadequain.webp";
 import stockOrbit from "../Photos/Projects_imgs/stockOrbit.jpeg";
 import timecare from "../Photos/Projects_imgs/timecare.webp";
+import linkify from "../Photos/Projects_imgs/linkify.jpg";
 
 //Projects Section!...
 
@@ -22,6 +23,13 @@ const projects = [
     about:
       "A Full-stack PWA music listening application using NextJS, MySQL, and Cloudinary.",
     demo: "https://vibe-next.vercel.app",
+  },
+  {
+    pro_title: "Linkify",
+    pro_img: linkify,
+    about:
+      "A Full-stack URL shortener using NodeJS, ExpressJS, MySQL and ReactJS.",
+    demo: "https://linkify-shortener.vercel.app",
   },
   {
     pro_title: "iFlix Movies",
