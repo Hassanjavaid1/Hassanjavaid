@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Hassanjavaid/static/css/main.e89b24eb.css",
-    "main.js": "/Hassanjavaid/static/js/main.abc460d4.js",
+    "main.js": "/Hassanjavaid/static/js/main.f7d15833.js",
     "static/js/863.fae2ae18.chunk.js": "/Hassanjavaid/static/js/863.fae2ae18.chunk.js",
     "static/js/267.483efe21.chunk.js": "/Hassanjavaid/static/js/267.483efe21.chunk.js",
-    "static/js/988.3852a962.chunk.js": "/Hassanjavaid/static/js/988.3852a962.chunk.js",
-    "static/js/327.8709cfff.chunk.js": "/Hassanjavaid/static/js/327.8709cfff.chunk.js",
+    "static/js/256.1707a621.chunk.js": "/Hassanjavaid/static/js/256.1707a621.chunk.js",
+    "static/js/27.3efadf62.chunk.js": "/Hassanjavaid/static/js/27.3efadf62.chunk.js",
     "static/css/497.a62761cc.chunk.css": "/Hassanjavaid/static/css/497.a62761cc.chunk.css",
     "static/js/497.1cfe95fe.chunk.js": "/Hassanjavaid/static/js/497.1cfe95fe.chunk.js",
     "static/js/258.041fcece.chunk.js": "/Hassanjavaid/static/js/258.041fcece.chunk.js",
@@ -20,15 +20,16 @@
     "static/media/iflix.webp": "/Hassanjavaid/static/media/iflix.8609a850da45026fba60.webp",
     "static/media/timecare.webp": "/Hassanjavaid/static/media/timecare.9874e3bddcb281ed6dd3.webp",
     "static/media/Vibe.jpg": "/Hassanjavaid/static/media/Vibe.d3ba3b396be6dd8b3972.jpg",
+    "static/media/linkify.jpg": "/Hassanjavaid/static/media/linkify.932019b1bdfde7de87b4.jpg",
     "static/media/sadequain.webp": "/Hassanjavaid/static/media/sadequain.0fe10add4447e09c6c21.webp",
     "static/media/preloader.gif": "/Hassanjavaid/static/media/preloader.17b58f681ba106f8b1be.gif",
     "index.html": "/Hassanjavaid/index.html",
     "main.e89b24eb.css.map": "/Hassanjavaid/static/css/main.e89b24eb.css.map",
-    "main.abc460d4.js.map": "/Hassanjavaid/static/js/main.abc460d4.js.map",
+    "main.f7d15833.js.map": "/Hassanjavaid/static/js/main.f7d15833.js.map",
     "863.fae2ae18.chunk.js.map": "/Hassanjavaid/static/js/863.fae2ae18.chunk.js.map",
     "267.483efe21.chunk.js.map": "/Hassanjavaid/static/js/267.483efe21.chunk.js.map",
-    "988.3852a962.chunk.js.map": "/Hassanjavaid/static/js/988.3852a962.chunk.js.map",
-    "327.8709cfff.chunk.js.map": "/Hassanjavaid/static/js/327.8709cfff.chunk.js.map",
+    "256.1707a621.chunk.js.map": "/Hassanjavaid/static/js/256.1707a621.chunk.js.map",
+    "27.3efadf62.chunk.js.map": "/Hassanjavaid/static/js/27.3efadf62.chunk.js.map",
     "497.a62761cc.chunk.css.map": "/Hassanjavaid/static/css/497.a62761cc.chunk.css.map",
     "497.1cfe95fe.chunk.js.map": "/Hassanjavaid/static/js/497.1cfe95fe.chunk.js.map",
     "258.041fcece.chunk.js.map": "/Hassanjavaid/static/js/258.041fcece.chunk.js.map",
@@ -41,6 +42,6 @@
   },
   "entrypoints": [
     "static/css/main.e89b24eb.css",
-    "static/js/main.abc460d4.js"
+    "static/js/main.f7d15833.js"
   ]
 }
