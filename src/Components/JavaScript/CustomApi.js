@@ -1,6 +1,6 @@
 //Projects images.
 
-import iflix_img from "../Photos/Projects_imgs/iflix.webp";
+import beluga from "../Photos/Projects_imgs/Beluga.png";
 import vibe from "../Photos/Projects_imgs/Vibe.jpg";
 import sadequain from "../Photos/Projects_imgs/sadequain.webp";
 import stockOrbit from "../Photos/Projects_imgs/stockOrbit.jpeg";
@@ -11,11 +11,11 @@ import linkify from "../Photos/Projects_imgs/linkify.jpg";
 
 const projects = [
   {
-    pro_title: "SFS Educational Website",
-    pro_img: sadequain,
+    pro_title: "Beluga Blog",
+    pro_img: beluga,
     about:
-      "Sadequain Foundation School offers quality education, fostering growth and shaping young minds for future success.",
-    demo: "https://sadequainfs.com",
+      "A Full-Stack blog web application with Headless CMS using NextJS and Sanity.",
+    demo: "https://beluga-blog.vercel.app",
   },
   {
     pro_title: "Vibe",
@@ -30,13 +30,6 @@ const projects = [
     about:
       "A Full-stack URL shortener using NodeJS, ExpressJS, MySQL and ReactJS.",
     demo: "https://linkify-shortener.vercel.app",
-  },
-  {
-    pro_title: "iFlix Movies",
-    pro_img: iflix_img,
-    about:
-      "iFlix is a site for movie lovers, giving a fun and easy movie experience.",
-    demo: "https://hassanjavaid1.github.io/iFlix",
   },
   {
     pro_title: "Stock Orbit",
