@@ -86,9 +86,9 @@ function Hero_Section() {
             {isIntersecting && (
               <>
                 <h4 className="about_hero text-[#DDDDDD] font-400 text-7xl flex items-center justify-center font-sans-serif gap-2 sm:font-semibold">
-                  <CountUp end={2} />
+                  <CountUp end={1} />
                   <span className="counter_text text-[1rem] font-sans-serif opacity-90 ">
-                    Years of <br /> Experience
+                    Year of <br /> Experience
                   </span>
                 </h4>
                 <h4 className="about_hero  text-[#DDDDDD] font-400 text-7xl flex items-center justify-center font-sans-serif gap-2 sm:font-semibold">
