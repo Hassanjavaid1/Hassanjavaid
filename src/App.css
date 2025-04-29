@@ -3,7 +3,6 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  
   color: white;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -184,6 +183,12 @@ body::-webkit-scrollbar-thumb {
   position: absolute;
   left: 45%;
   top: 55%;
+}
+
+/* Certification */
+
+.certificates {
+  background-color: #0f0715;
 }
 
 /* Contact Me */

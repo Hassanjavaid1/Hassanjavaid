@@ -1,12 +1,16 @@
 //Projects images.
 
-import beluga from "../Photos/Projects_imgs/Beluga.png";
-import vibe from "../Photos/Projects_imgs/Vibe.jpg";
-import sadequain from "../Photos/Projects_imgs/sadequain.webp";
-import stockOrbit from "../Photos/Projects_imgs/stockOrbit.jpeg";
-import timecare from "../Photos/Projects_imgs/timecare.webp";
-import linkify from "../Photos/Projects_imgs/linkify.jpg";
-
+import beluga from "../Photos/projectImgs/Beluga.png";
+import vibe from "../Photos/projectImgs/Vibe.jpg";
+import stockOrbit from "../Photos/projectImgs/stockOrbit.jpeg";
+import timecare from "../Photos/projectImgs/timecare.webp";
+import linkify from "../Photos/projectImgs/linkify.jpg";
+import javascript_basic from "../Photos/projectImgs/javascript_basic.png";
+import hackerRank_logo from "../Photos/projectImgs/hackerRank_logo.png";
+import freeCodeCamp_logo from "../Photos/projectImgs/freeCodeCamp_logo.png";
+import cbsPak_logo from "../Photos/projectImgs/cbsPak_logo.png";
+import frontend_Internship_completion from "../Photos/projectImgs/frontend_internship_completion.jpg";
+import frontendReactJS from "../Photos/projectImgs/frontendReactJS.jpg";
 //Projects Section!...
 
 const projects = [
@@ -103,4 +107,33 @@ const mySkills = [
   },
 ];
 
-export { projects, mySkills };
+// Certifications;
+
+const certifications = [
+  {
+    title: "JavaScript Basic",
+    img: javascript_basic,
+    dateOfIssue: "29-04-2025",
+    providerLogo: hackerRank_logo,
+    providerName: "HackerRank",
+    demo: "https://www.hackerrank.com/certificates/7259d99b93a5",
+  },
+  {
+    title: "Frontend Internship Completion",
+    img: frontend_Internship_completion,
+    dateOfIssue: "01-02-2025",
+    providerLogo: cbsPak_logo,
+    providerName: "CBS Pakistan",
+    demo: "https://www.linkedin.com/in/hassan-javaid159",
+  },
+  {
+    title: "Frontend ReactJS Certificate",
+    img: frontendReactJS,
+    dateOfIssue: "10-06-2024",
+    providerLogo: freeCodeCamp_logo,
+    providerName: "freeCodeCamp",
+    demo: "https://www.freecodecamp.org/certification/Hassanjavaid/front-end-development-libraries",
+  },
+];
+
+export { projects, mySkills, certifications };

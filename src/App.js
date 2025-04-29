@@ -1,19 +1,20 @@
 import React, { Suspense, useEffect, useRef } from "react";
 import "./App.css";
-import Preloader from "./Components/JavaScript/Preloader";
-import CircularProgress from "./Components/JavaScript/CircularProgress";
+import Preloader from "./components/javascript/Preloader";
+import CircularProgress from "./components/javascript/CircularProgress";
 import { BrowserRouter } from "react-router-dom";
 import Aos from "aos";
 import LocomotiveScroll from "locomotive-scroll";
 
-const Navbar = React.lazy(() => import("./Components/JavaScript/Navbar"));
+const Navbar = React.lazy(() => import("./components/javascript/Navbar"));
 const HeroSection = React.lazy(() =>
-  import("./Components/JavaScript/HeroSection")
+  import("./components/javascript/HeroSection")
 );
-const Mywork = React.lazy(() => import("./Components/JavaScript/Mywork"));
-const MySkills = React.lazy(() => import("./Components/JavaScript/MySkills"));
-const Contact = React.lazy(() => import("./Components/JavaScript/Contact"));
-const Footer = React.lazy(() => import("./Components/JavaScript/Footer"));
+const Mywork = React.lazy(() => import("./components/javascript/Mywork"));
+const MySkills = React.lazy(() => import("./components/javascript/MySkills"));
+const Certification = React.lazy(() => import("./components/javascript/Certification"))
+const Contact = React.lazy(() => import("./components/javascript/Contact"));
+const Footer = React.lazy(() => import("./components/javascript/Footer"));
 
 function App() {
   const scrollContainerRef = useRef(null);
@@ -58,6 +59,9 @@ function App() {
           </div>
           <div className="myskills" data-scroll>
             <MySkills />
+          </div>
+          <div className="certificates" data-scroll>
+            <Certification />
           </div>
           <div className="contact" data-scroll>
             <Contact />

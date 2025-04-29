@@ -31,7 +31,7 @@ function Mywork() {
             data-aos="fade-up"
           >
             I bring your ideas and vision to life through a distinctive web
-            project that inspires <br /> both you and your customers.
+            projects that inspires <br /> both you and your customers.
           </p>
           <div className="hidden mywork_shadow md:block"></div>
           <div className="grid grid-cols-1 justify-center mx-auto mt-12 gap-6 md:grid-cols-2 md:gap-y-6 md:gap-x-0 xl:gap-y-8 xl:mt-16 2xl:gap-y-12">
