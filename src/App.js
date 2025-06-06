@@ -12,7 +12,9 @@ const HeroSection = React.lazy(() =>
 );
 const Mywork = React.lazy(() => import("./components/javascript/Mywork"));
 const MySkills = React.lazy(() => import("./components/javascript/MySkills"));
-const Certification = React.lazy(() => import("./components/javascript/Certification"))
+const Certification = React.lazy(() =>
+  import("./components/javascript/Certification")
+);
 const Contact = React.lazy(() => import("./components/javascript/Contact"));
 const Footer = React.lazy(() => import("./components/javascript/Footer"));
 
@@ -33,7 +35,7 @@ function App() {
       smooth: true, // Enable smooth scrolling for desktop
       smoothMobile: true, // Enable smooth scrolling for mobile
       inertia: 0.75, // Adjust scroll inertia
-      getSpeed: true, // Track scroll speed (optional)
+      //   getSpeed: true, // Track scroll speed (optional)
       getDirection: true, // Track scroll direction (optional)
       gestureDirection: "vertical", // Vertical scrolling
       scrollFromAnywhere: true, // Allow scrolling from anywhere
@@ -49,8 +51,8 @@ function App() {
   return (
     <>
       <Suspense fallback={<Preloader />}>
-        <BrowserRouter basename="/Hassanjavaid" ref={scrollContainerRef}>
-          <div className="hero_background" data-scroll>
+        <BrowserRouter basename="/Hassanjavaid">
+          <div className="hero_background" ref={scrollContainerRef}>
             <Navbar />
             <HeroSection data-scroll />
           </div>
@@ -66,7 +68,7 @@ function App() {
           <div className="contact" data-scroll>
             <Contact />
           </div>
-          <div className="footer" data-scroll>
+          <div className="bg-[#0f0715]" data-scroll>
             <Footer />
           </div>
         </BrowserRouter>

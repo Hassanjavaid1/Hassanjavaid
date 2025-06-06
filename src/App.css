@@ -227,14 +227,7 @@ body::-webkit-scrollbar-thumb {
   padding: 0.9rem;
 }
 
-/* Footer */
-
-.footer {
-  background-color: #0f0715;
-}
-
 /* Scroll  */
-
 .nav_scroll {
   background-color: black;
   position: fixed;

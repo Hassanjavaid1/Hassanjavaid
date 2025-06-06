@@ -7,7 +7,7 @@ function Certification() {
   return (
     <>
       <Element
-        name="Portfolio"
+        name="Certifications"
         className="container mx-auto px-3 py-12 relative z-0 md:py-20 lg:py-20 xl:px-28"
       >
         <section className="text-center">

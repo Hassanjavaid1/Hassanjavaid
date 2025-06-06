@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import { Element } from "react-scroll";
 import { FaLinkedinIn } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";

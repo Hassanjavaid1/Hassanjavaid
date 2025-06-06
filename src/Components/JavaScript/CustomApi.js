@@ -1,7 +1,7 @@
 //Projects images.
 
 import beluga from "../Photos/projectImgs/Beluga.png";
-import vibe from "../Photos/projectImgs/Vibe.jpg";
+import vibe from "../Photos/projectImgs/Vibe.png";
 import stockOrbit from "../Photos/projectImgs/stockOrbit.jpeg";
 import timecare from "../Photos/projectImgs/timecare.webp";
 import linkify from "../Photos/projectImgs/linkify.jpg";
