@@ -66,9 +66,11 @@ function Footer() {
             </Link>
           </li>
         </ul>
-        <h3 className="footer_copyright flex items-center flex-col mt-4 text-[#7957d1eb] font-sans text-lg sm:block">
+        <h3 className="footer_copyright flex items-center flex-col text-[#7957d1eb] text-[16px] font-[300] sm:block">
           &copy; {currentYear} All rights reserved by {""}
-          <span className="font-12 text-white font-500">Hassanjavaid!</span>
+          <span className="font-12 text-white font-semibold">
+            Hassanjavaid!
+          </span>
         </h3>
       </div>
     </>

@@ -8,12 +8,12 @@ function MySkills() {
       <div className="container mx-auto p-3 py-8 text-center md:py-20 lg:py-20 xl:px-28">
         <Element name="MYSkills" className="Skills">
           <h1
-            className="heading_title text-4xl font-bold !leading-normal sm:text-5xl"
+            className="heading_title text-4xl font-bold !leading-normal sm:text-[45px]"
             data-aos="fade-up"
           >
             My Skills
           </h1>
-          <p className="title_desc mt-4 " data-aos="fade-up">
+          <p className="mt-4 text-[#dddddd] text-[16px] font-[400]" data-aos="fade-up">
             These skills transform your ideas and vision
             <br />
             into reality.

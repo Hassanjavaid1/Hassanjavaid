@@ -2,12 +2,14 @@ import React, { useRef, useState, useEffect } from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import hassan from "../Photos/my_pic.png";
+import hassanGlasses from "../Photos/my_pic_glasses.jpg";
 import CountUp from "react-countup";
 import { Element } from "react-scroll";
-import Aos from "aos";
 
 function Hero_Section() {
   const [isIntersecting, setIsIntersecting] = useState(false);
+  const [imageChange, setImageChange] = useState(false);
+
   const targetRef = useRef(null);
 
   useEffect(() => {
@@ -28,21 +30,18 @@ function Hero_Section() {
 
   return (
     <>
-      <Element name="About" className="About" >
-        <section
-          className="container mx-auto p-8 mt-10 xl:px-28"
-          
-        >
+      <Element name="About" className="About">
+        <section className="container mx-auto p-8 mt-10 xl:px-28">
           <div className="flex flex-col-reverse items-center justify-around md:flex-row">
             <div className="mt-8 md:w-2/3 2xl:w-2/4" data-aos="fade-right">
-              <h3 className="mb-3 font-bold text-3xl font-sans-serif text-[#DDDDDD] sm:text-4xl md:text-3xl lg:text-4xl 2xl:text-5xl">
-                I'm Hassanjavaid
+              <h3 className="mb-3 font-bold text-3xl font-sans-serif text-[#DDDDDD] sm:text-4xl md:text-3xl lg:text-4xl 2xl:text-[36px]">
+                I am Hassanjavaid
               </h3>
-              <h1 className="heading_title font-bold text-5xl text-uppercase font-sans sm:leading-normal md:text-4xl md:leading-normal lg:text-5xl lg:leading-normal 2xl:text-6xl 2xl:leading-normal">
-                FrontEnd React + <br /> NodeJS Developer
+              <h1 className="heading_title font-bold text-[65px] text-uppercase sm:leading-normal md:text-4xl md:leading-normal lg:text-5xl lg:leading-normal 2xl:text-[65px] 2xl:leading-normal">
+                Frontend React + <br /> NextJS Developer
               </h1>
 
-              <p className="hero_intro text-[1.4rem] font-sans-serif text-[#D6D6D7] mt-5">
+              <p className="text-[20px] font-[300] text-[#D6D6D7] mt-5">
                 I break down complex user experience problems to create
                 integrity focused solutions that connect people.
               </p>
@@ -73,9 +72,11 @@ function Hero_Section() {
             <h1 className="hidden animated-text md:block">HI</h1>
             <div data-aos="fade-left" className="hero_pic relative">
               <img
-                src={hassan}
+                src={imageChange ? hassanGlasses : hassan}
                 alt=""
                 className="object-cover rounded-[30px] border-2 border-[#9c6cff5e] transition-all hover:border-[#7f4ae7] transform rotate-2 hover:rotate-0"
+                onMouseEnter={() => setImageChange(true)}
+                onMouseOut={() => setImageChange(false)}
               />
             </div>
           </div>
@@ -85,21 +86,21 @@ function Hero_Section() {
           >
             {isIntersecting && (
               <>
-                <h4 className="about_hero text-[#DDDDDD] font-400 text-7xl flex items-center justify-center font-sans-serif gap-2 sm:font-semibold">
+                <h4 className="about_hero text-[#DDDDDD]  text-7xl flex items-center justify-center font-sans-serif gap-2 sm:font-semibold">
                   <CountUp end={2} />+
-                  <span className="counter_text text-[1rem] font-sans-serif opacity-90 ">
+                  <span className="counter_text text-[1rem] opacity-90 ">
                     Years of <br /> Experience
                   </span>
                 </h4>
-                <h4 className="about_hero  text-[#DDDDDD] font-400 text-7xl flex items-center justify-center font-sans-serif gap-2 sm:font-semibold">
+                <h4 className="about_hero  text-[#DDDDDD]  text-7xl flex items-center justify-center font-sans-serif gap-2 sm:font-semibold">
                   <CountUp end={parseFloat(9)} />+
-                  <span className="counter_text text-[1rem] font-sans-serif opacity-90 ">
+                  <span className="counter_text text-[1rem] opacity-90 ">
                     Projects <br /> Completed
                   </span>
                 </h4>
-                <h4 className="about_hero text-[#DDDDDD] font-400 text-7xl flex items-center justify-center font-sans-serif gap-2 sm:font-semibold">
+                <h4 className="about_hero text-[#DDDDDD]  text-7xl flex items-center justify-center font-sans-serif gap-2 sm:font-semibold">
                   <CountUp end={1} />{" "}
-                  <span className="counter_text text-[1rem] font-sans-serif opacity-90">
+                  <span className="counter_text text-[1rem] opacity-90">
                     Internship <br />
                     Completed
                   </span>

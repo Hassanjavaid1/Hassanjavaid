@@ -41,10 +41,10 @@ function Contact() {
             className="contact_form bg-[#140C1C] p-4 rounded-2xl sm:p-8"
             data-aos="fade-up"
           >
-            <h1 className="heading_title text-4xl font-bold !leading-normal sm:text-5xl">
+            <h1 className="heading_title text-4xl font-bold !leading-normal sm:text-[45px]">
               Let’s work together!
             </h1>
-            <p className="title_desc mt-4 text-lg font-sans">
+            <p className="mt-4 text-[#dddddd] text-[16px] font-[400]">
               I turn vision into stunning designs and seamless code.
               <br />
               Let’s create something extraordinary together!
@@ -78,7 +78,7 @@ function Contact() {
               </div>
               <select
                 name="service"
-                className="input_field text-[1.1rem] font-sans-serif]"
+                className="input_field text-[1.1rem]"
               >
                 <option value="No Service Selected" className="option">
                   Choose Services
@@ -106,7 +106,7 @@ function Contact() {
                 className="input_field h-[185px]"
                 name="message"
               ></textarea>
-              <button className="btn w-fit font-sans py-4 px-6 rounded-[50px] font-[600]">
+              <button className="btn w-fit py-4 px-6 rounded-[50px]">
                 Send Message
               </button>
             </form>

@@ -21,13 +21,13 @@ function Mywork() {
       >
         <section className="text-center">
           <h1
-            className="heading_title text-3xl font-bold text-nowrap !leading-normal sm:text-5xl"
+            className="heading_title text-3xl font-bold text-nowrap !leading-normal sm:text-[45px]"
             data-aos="fade-up"
           >
             My Recent Works
           </h1>
           <p
-            className="title_desc mt-4 text-white font-sans"
+            className="mt-4 text-[#dddddd] text-[16px] font-[400]"
             data-aos="fade-up"
           >
             I bring your ideas and vision to life through a distinctive web

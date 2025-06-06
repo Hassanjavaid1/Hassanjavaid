@@ -6,6 +6,11 @@ body {
   color: white;
   overflow-x: hidden;
   scroll-behavior: smooth;
+
+  font-family: "Sora";
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 .hero_background {
   background-color: #0f0715;
@@ -101,7 +106,6 @@ body::-webkit-scrollbar-thumb {
   background: linear-gradient(to right, #8750f7 0%, #ffffff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: sans-serif;
 }
 
 .svg_icon {
@@ -141,9 +145,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .animated-text {
-  font-weight: bold;
-  font-family: monospace;
-  font-size: 20rem;
+  font-size: 17rem;
   animation: animateBackground 3s ease-in-out infinite;
   -webkit-text-stroke: 1px #6c2ceb;
   color: transparent;
@@ -201,7 +203,6 @@ body::-webkit-scrollbar-thumb {
   padding: 0.9rem;
   border: 1px solid #1e1e1e;
   border-radius: 7px;
-  font-family: sans-serif;
   transition: 0.6s;
   font-size: 17px;
   resize: none;
