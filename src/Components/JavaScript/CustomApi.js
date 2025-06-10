@@ -3,7 +3,7 @@
 import beluga from "../Photos/projectImgs/Beluga.png";
 import vibe from "../Photos/projectImgs/Vibe.png";
 import stockOrbit from "../Photos/projectImgs/stockOrbit.jpeg";
-import timecare from "../Photos/projectImgs/timecare.webp";
+import Bigcommerce from "../Photos/projectImgs/Bigcommerce.png";
 import linkify from "../Photos/projectImgs/linkify.jpg";
 import javascript_basic from "../Photos/projectImgs/javascript_basic.png";
 import hackerRank_logo from "../Photos/projectImgs/hackerRank_logo.png";
@@ -29,6 +29,13 @@ const projects = [
     demo: "https://vibe-next.vercel.app",
   },
   {
+    pro_title: "BIGCOMMERCE",
+    pro_img: Bigcommerce,
+    about:
+      "An e-commerce site with all e-commerce features and API integration using ReactJS.",
+    demo: "https://hassanjavaid1.github.io/BIGCOMMERCE",
+  },
+  {
     pro_title: "Linkify",
     pro_img: linkify,
     about:
@@ -41,13 +48,6 @@ const projects = [
     about:
       "Mobie app for real-time inventory management and inventory tracking, retail and warehouse users.",
     demo: "https://cbspakistan.com/stock-orbit-portfolio.html",
-  },
-  {
-    pro_title: "Time Care",
-    pro_img: timecare,
-    about:
-      "Time Care tracks attendance, manages holidays, and offers workforce insights.",
-    demo: "https://cbspakistan.com/timecare-portfolio.html",
   },
 ];
 
